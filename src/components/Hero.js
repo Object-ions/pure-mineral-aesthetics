@@ -11,7 +11,7 @@ const Hero = () => {
           <button className="btn">Book Your Appointment</button>
         </div>
 
-        <div className="hero-photo"></div>
+        <div className="hero-image"></div>
       </div>
     </div>
   );

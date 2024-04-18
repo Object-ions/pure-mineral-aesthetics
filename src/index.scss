@@ -53,7 +53,7 @@ a {
 }
 
 .btn {
-  background-color: $secondaryColor;
+  background-color: $accentColor;
   padding: 1rem;
   border: none;
   border-radius: 1.5rem;
@@ -84,7 +84,7 @@ a {
 
 .topCTA {
   height: 3rem;
-  background-color: $accentColor;
+  background-color: $mainColor;
   display: flex;
   color: $blackColor;
 
@@ -97,7 +97,7 @@ a {
 
 // *** Hero *** //
 .hero {
-  background: $mainColor;
+  background: $secondaryColor;
 
   .hero-container {
     @include container-setup;
@@ -113,9 +113,23 @@ a {
       flex-direction: column;
       justify-content: center;
       align-items: flex-start;
+
+      h2 {
+        color: $mainColor;
+        font-size: 3rem;
+      }
+
+      p {
+        margin-bottom: 3rem;
+      }
+
+      button {
+        font-size: 1rem;
+        padding: 1rem 2rem;
+      }
     }
 
-    .hero-photo {
+    .hero-image {
       background: {
         image: url('http://zahavmedspa.com/wp-content/uploads/2023/05/AdobeStock_560695369-scaled.jpg');
         position: top left;
@@ -125,6 +139,64 @@ a {
       }
       height: 100%;
       width: 50%;
+    }
+  }
+}
+
+// *** Informative *** //
+.informative {
+  background: $secondaryColor;
+
+  .informative-container {
+    @include container-setup;
+    padding: 0;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    background: {
+      image: url('http://zahavmedspa.com/wp-content/uploads/2023/05/Group-26.png');
+      position: center center;
+      repeat: no-repeat;
+      size: cover;
+      attachment: fixed;
+    }
+
+    .informative-text {
+      padding: 0 2rem;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+
+      h3 {
+        color: $whiteColor;
+        font-size: 2rem;
+      }
+
+      p {
+        margin-bottom: 1rem;
+        color: $whiteColor;
+      }
+
+      button {
+        font-size: 1rem;
+        padding: 1rem 2rem;
+      }
+    }
+
+    .informative-image {
+      height: 55%;
+      width: 50%;
+
+      .image-wrapper {
+        height: 100%;
+
+        img {
+          height: 100%;
+          padding: 2.5rem 0 0 4.5rem;
+        }
+      }
     }
   }
 }
