@@ -1,7 +1,15 @@
+@import './variables';
+
 // Mixin for common flex centering
-@mixin flexRowCenter {
+@mixin flex-row-center {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+}
+
+@mixin container-setup {
+  max-width: $maxWidth;
+  margin: 0 auto;
+  padding: 2rem;
 }

@@ -15,12 +15,12 @@ const Navbar = () => {
       <TopCTA />
       <div className="navbar">
         <div className="navbar-container">
-          <ul className="ulRow">
+          <ul className="ul-row">
             <li>
               <Link to="/">Logo</Link>
             </li>
           </ul>
-          <ul className="ulRow">
+          <ul className="ul-row">
             <li>
               <Link to="/treatments">Treatments</Link>
             </li>
@@ -31,7 +31,7 @@ const Navbar = () => {
               <Link to="/contact-us">Contact Us</Link>
             </li>
           </ul>
-          <ul className="ulRow">
+          <ul className="ul-row">
             <li>
               <Link to="/book-appointment" className="btn">
                 Book Your Appointment

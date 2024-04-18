@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
 
 @import './scss/variables';
+@import './scss/mixins';
 
 * {
   box-sizing: border-box;
@@ -12,9 +13,16 @@ html::-webkit-scrollbar {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #f2f4f8;
+  background-color: $whiteColor;
   margin: 0;
   box-sizing: border-box;
+}
+
+footer {
+  text-align: center;
+  background: $accentColor;
+  padding: 0.5rem;
+  color: $whiteColor;
 }
 
 ul {
@@ -33,7 +41,7 @@ a {
 }
 
 //  *** Utility classes *** //
-.ulRow {
+.ul-row {
   margin: 0;
   padding: 0;
   display: flex;
@@ -47,14 +55,15 @@ a {
 .btn {
   background-color: $secondaryColor;
   padding: 1rem;
+  border: none;
   border-radius: 1.5rem;
 }
 
 // *** Navbar *** //
 .navbar-container {
-  max-width: 1200px;
+  @include container-setup;
+  padding: 0;
   width: 100%;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -83,5 +92,39 @@ a {
   li {
     color: $whiteColor;
     font-size: 0.85rem;
+  }
+}
+
+// *** Hero *** //
+.hero {
+  background: $mainColor;
+
+  .hero-container {
+    @include container-setup;
+    padding: 0;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+
+    .hero-text {
+      padding: 0 2rem;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .hero-photo {
+      background: {
+        image: url('http://zahavmedspa.com/wp-content/uploads/2023/05/AdobeStock_560695369-scaled.jpg');
+        position: top left;
+        repeat: no-repeat;
+        size: cover;
+        attachment: fixed;
+      }
+      height: 100%;
+      width: 50%;
+    }
   }
 }
