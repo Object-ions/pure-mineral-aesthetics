@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { getAuth, updateProfile } from 'firebase/auth';
-import { db } from '../newFirebase.config';
+import { db } from '../Firebase.config';
 import { updateDoc, doc } from '@firebase/firestore';
 import { toast } from 'react-toastify';
 

@@ -5,7 +5,7 @@ import {
   updateProfile,
 } from 'firebase/auth';
 import { setDoc, doc, serverTimestamp } from 'firebase/firestore';
-import { db } from '../newFirebase.config';
+import { db } from '../Firebase.config';
 import { toast } from 'react-toastify';
 import { Link, useNavigate } from 'react-router-dom';
 import { ReactComponent as ArrowRightIcon } from '../assets/svg/keyboardArrowRightIcon.svg';
