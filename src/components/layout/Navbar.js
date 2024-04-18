@@ -14,27 +14,31 @@ const Navbar = () => {
     <header>
       <TopCTA />
       <div className="navbar">
-        <ul>
-          <li>
-            <Link to="/">Logo</Link>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <Link to="/treatments">Treatments</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/contact-us">Contact Us</Link>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <Link to="/book-appointment">Book Your Appointment</Link>
-          </li>
-        </ul>
+        <div className="navbar-container">
+          <ul className="ulRow">
+            <li>
+              <Link to="/">Logo</Link>
+            </li>
+          </ul>
+          <ul className="ulRow">
+            <li>
+              <Link to="/treatments">Treatments</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/contact-us">Contact Us</Link>
+            </li>
+          </ul>
+          <ul className="ulRow">
+            <li>
+              <Link to="/book-appointment" className="btn">
+                Book Your Appointment
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
   );

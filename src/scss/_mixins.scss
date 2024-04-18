@@ -1,0 +1,7 @@
+// Mixin for common flex centering
+@mixin flexRowCenter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}

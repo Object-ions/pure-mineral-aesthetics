@@ -21,6 +21,10 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .page {
   display: flex;
   flex-direction: column;
@@ -28,43 +32,56 @@ ul {
   height: 100vh;
 }
 
-.TopCTA {
-  height: 3rem;
-  background-color: $accentColor;
+//  *** Utility classes *** //
+.ulRow {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  margin: 0 auto;
 
-  ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-    li {
-      margin: 0 0.5rem;
-    }
+  li {
+    margin: 0 2rem;
   }
+}
+
+.btn {
+  background-color: $secondaryColor;
+  padding: 1rem;
+  border-radius: 1.5rem;
+}
+
+// *** Navbar *** //
+.navbar-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar {
   height: 5rem;
-  background-color: #ffffff;
+  background-color: $whiteColor;
   z-index: 1000;
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  overflow-y: hidden;
+  color: $blackColor;
 
-  ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
+  a {
+    color: $blackColor;
+  }
+}
 
-    li {
-      margin: 0 2rem;
-    }
+.topCTA {
+  height: 3rem;
+  background-color: $accentColor;
+  display: flex;
+  color: $blackColor;
+
+  a,
+  li {
+    color: $whiteColor;
+    font-size: 0.85rem;
   }
 }
