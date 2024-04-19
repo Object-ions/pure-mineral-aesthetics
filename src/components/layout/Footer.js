@@ -6,7 +6,10 @@ const Footer = () => {
       <div className="footer">
         <div className="visit-us">
           <h3>Visit Us</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <p>
+            Lorem ipsum dolor sit amet, <br />
+            consectetur adipisicing elit.
+          </p>
           <p>152-874-9852</p>
           <>
             <Link to={'/'}>FB</Link>

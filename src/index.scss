@@ -27,6 +27,10 @@ a {
   padding: 0.2rem;
 }
 
+footer {
+  background-color: $blackColor;
+}
+
 .page {
   display: flex;
   flex-direction: column;
@@ -329,6 +333,24 @@ a {
         width: 100%;
       }
     }
+  }
+}
+
+.footer {
+  @include container-setup;
+  color: $whiteColor;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  a {
+    color: $whiteColor;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
 }
 
