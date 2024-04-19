@@ -217,7 +217,7 @@ a {
     > :first-child {
       grid-column: 1 / -1;
       font-size: 4rem;
-      margin: 0;
+      margin: 3rem 0 0 0;
       color: $blackColor;
     }
 
@@ -238,6 +238,44 @@ a {
 
       h4 {
         font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+// *** Second Informative *** //
+.second-informative {
+  background-color: $accentColor;
+
+  .second-container {
+    @include container-setup;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5rem;
+    color: $whiteColor;
+    background: $accentColor;
+    text-align: center;
+
+    .second-text {
+      grid-column: 1 / 4;
+      display: flex;
+      flex-direction: column;
+      color: $blackColor;
+      align-items: center;
+      justify-content: space-around;
+
+      a {
+        color: $blackColor;
+        border: 0.1rem solid $blackColor;
+      }
+    }
+
+    .second-image-wrapper {
+      height: 20rem;
+      grid-column: 4 / 5;
+
+      img {
+        height: 100%;
       }
     }
   }
