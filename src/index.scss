@@ -18,19 +18,13 @@ body {
   box-sizing: border-box;
 }
 
-footer {
-  text-align: center;
-  background: $accentColor;
-  padding: 0.5rem;
-  color: $whiteColor;
-}
-
 ul {
   list-style: none;
 }
 
 a {
   text-decoration: none;
+  padding: 0.2rem;
 }
 
 .page {
@@ -323,8 +317,22 @@ a {
 
 .testimonials {
   width: 100%;
+  max-width: $maxWidth;
+  margin: auto;
+  background: $secondaryColor;
 
   img {
     width: 100%;
+  }
+}
+
+.copyrights {
+  text-align: center;
+  background: $accentColor;
+  padding: 0.5rem;
+  color: $blackColor;
+
+  a {
+    color: $blackColor;
   }
 }
