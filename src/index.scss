@@ -317,12 +317,18 @@ a {
 
 .testimonials {
   width: 100%;
-  max-width: $maxWidth;
   margin: auto;
-  background: $secondaryColor;
+  background: $whiteColor;
 
-  img {
-    width: 100%;
+  .testimonials-container {
+    background: $whiteColor;
+    @include container-setup;
+
+    .testimonials-image-wrapper {
+      img {
+        width: 100%;
+      }
+    }
   }
 }
 
