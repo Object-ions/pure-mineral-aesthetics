@@ -143,7 +143,14 @@ footer {
 
 // *** Informative *** //
 .informative {
-  background: $secondaryColor;
+  // background: $secondaryColor;
+  background: {
+    image: url('http://zahavmedspa.com/wp-content/uploads/2023/05/Group-26.png');
+    position: center center;
+    repeat: no-repeat;
+    size: cover;
+    attachment: fixed;
+  }
 
   .informative-container {
     @include container-setup;
@@ -151,13 +158,6 @@ footer {
     height: 40vh;
     display: flex;
     flex-direction: row;
-    background: {
-      image: url('http://zahavmedspa.com/wp-content/uploads/2023/05/Group-26.png');
-      position: center center;
-      repeat: no-repeat;
-      size: cover;
-      attachment: fixed;
-    }
 
     .informative-text {
       padding: 0 2rem;
@@ -239,7 +239,7 @@ footer {
 
 // *** Second Informative *** //
 .second-informative {
-  background-color: $secondaryColor;
+  background-color: $accentColor;
 
   .second-container {
     @include container-setup;
@@ -275,9 +275,9 @@ footer {
   }
 }
 
-// *** Contact *** //
+// *** Contact Form *** //
 .contact-form {
-  background: $secondaryColor;
+  background: $mainColor;
 
   .contact-container {
     @include container-setup;
@@ -319,6 +319,7 @@ footer {
   }
 }
 
+// *** Testimonials *** //
 .testimonials {
   width: 100%;
   margin: auto;
@@ -336,6 +337,7 @@ footer {
   }
 }
 
+// *** Footer *** //
 .footer {
   @include container-setup;
   color: $whiteColor;
