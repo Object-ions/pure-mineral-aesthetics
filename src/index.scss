@@ -200,3 +200,41 @@ a {
     }
   }
 }
+
+// *** Services *** //
+.services-section {
+  @include container-setup;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+  color: $whiteColor;
+  background: $secondaryColor;
+  text-align: center;
+
+  > :first-child {
+    grid-column: 1 / -1;
+    font-size: 4rem;
+    margin: 0;
+    color: $blackColor;
+  }
+
+  > :last-child {
+    grid-column: 1 / -1;
+    color: $blackColor;
+  }
+
+  .service-card {
+    background: $mainColor;
+    height: 25rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 0.15rem solid $accentColor;
+
+    h4 {
+      font-size: 1.5rem;
+    }
+  }
+}
