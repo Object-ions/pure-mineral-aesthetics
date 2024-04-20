@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-
+import { ReactComponent as ArrowIcon } from '../assets/svg/arrow_forward.svg';
 const ServicesSection = () => {
   return (
     <div className="services-section">
@@ -7,42 +7,39 @@ const ServicesSection = () => {
         <h3>Our Services</h3>
         <div className="service-card">
           <div className="image-wrapper">{/* <img src="" alt="" /> */}</div>
-          <h4>Signature Facial</h4>
+          <h4>Quartz Hydration Facial</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-            efficitur, massa ultricies aliquet iaculis, ante leo tempor lorem,
-            eget euismod arcu risus vitae justo.
+            Immerse yourself in a hydrating bliss with our quartz-infused
+            facial, perfect for restoring vitality to thirsty skin.
           </p>
         </div>
         <div className="service-card">
           <div className="image-wrapper">{/* <img src="" alt="" /> */}</div>
-          <h4>Signature Facial</h4>
+          <h4>Amethyst Calming Treatment</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-            efficitur, massa ultricies aliquet iaculis, ante leo tempor lorem,
-            eget euismod arcu risus vitae justo.
+            Soothe and calm your skin with the purifying properties of amethyst,
+            designed to reduce inflammation and promote peace.
           </p>
         </div>
         <div className="service-card">
           <div className="image-wrapper">{/* <img src="" alt="" /> */}</div>
-          <h4>Signature Facial</h4>
+          <h4>Ruby Revitalizing Boost</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-            efficitur, massa ultricies aliquet iaculis, ante leo tempor lorem,
-            eget euismod arcu risus vitae justo.
+            Experience the energizing effect of ruby crystals that aim to
+            invigorate your skin and boost your natural glow.
           </p>
         </div>
         <div className="service-card">
           <div className="image-wrapper">{/* <img src="" alt="" /> */}</div>
-          <h4>Signature Facial</h4>
+          <h4>Jade Contouring Magic</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-            efficitur, massa ultricies aliquet iaculis, ante leo tempor lorem,
-            eget euismod arcu risus vitae justo.
+            Define and contour with the healing touch of jade, known for its
+            abilities to enhance skin elasticity and sculpt your features.
           </p>
         </div>
-        <Link to={'/'} className="btn">
-          Explore All Out Treatments
+        <Link to="/" className="btn">
+          <span>Explore All Our Treatments</span>
+          <ArrowIcon className="svg-icon" />
         </Link>
       </div>
     </div>
