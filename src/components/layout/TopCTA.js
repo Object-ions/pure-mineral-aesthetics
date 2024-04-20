@@ -18,7 +18,7 @@ const TopCTA = () => {
           <li>
             <LocationIcon className="svg-icon" />
           </li>
-          <li>8700 E Pinnacle Peak Rd. Suite 101 Scottsdale AZ</li>
+          <li>4023 18th St, Ste B, San-Francisco, Ca 94114</li>
         </ul>
         <ul className="ul-row">
           <li>
