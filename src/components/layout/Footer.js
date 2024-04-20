@@ -5,8 +5,8 @@ import { ReactComponent as InstagramIcon } from '../../assets/svg/instagram.svg'
 import { ReactComponent as TwitterIcon } from '../../assets/svg/x-twitter.svg';
 
 const Footer = () => {
-  const logo = '/images/mineral-logo.png';
-  const logotype = '/images/mineral-logotype.png';
+  const logo = '/images/mineral-logo-white.png';
+  const logotype = '/images/mineral-logotype-white.png';
   return (
     <footer>
       <div className="footer">
@@ -31,10 +31,15 @@ const Footer = () => {
           </>
         </div>
         <div className="footer-logos">
-          <img className="logo" src={logo} alt="logo" />
-          <img className="logotype" src={logotype} alt="logo" />
+          <Link to={'/'}>
+            <img className="logo" src={logo} alt="logo" />
+          </Link>
+          <Link to={'/'}>
+            <img className="logotype" src={logotype} alt="logo" />
+          </Link>
         </div>
         <div className="navigation">
+          <h4>Map website:</h4>
           <Link to={'/'}>Testimonials</Link>
           <Link to={'/'}>About</Link>
           <Link to={'/'}>Contact</Link>
