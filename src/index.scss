@@ -174,7 +174,6 @@ footer {
 
 // *** Informative *** //
 .informative {
-  // background: $secondaryColor;
   background: {
     image: url('http://zahavmedspa.com/wp-content/uploads/2023/05/Group-26.png');
     position: center center;
@@ -186,13 +185,16 @@ footer {
   .informative-container {
     @include container-setup;
     padding: 0;
-    height: 40vh;
+    height: 35rem;
     display: flex;
     flex-direction: row;
 
     .informative-text {
       padding: 0 2rem;
       width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
 
       h3 {
         color: $whiteColor;
@@ -211,7 +213,7 @@ footer {
     }
 
     .informative-image {
-      height: 55%;
+      height: 90%;
       width: 50%;
 
       .image-wrapper {
