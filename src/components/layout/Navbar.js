@@ -1,15 +1,9 @@
-import { useNavigate, useLocation, Link } from 'react-router-dom';
-import { ReactComponent as OfferIcon } from '../../assets/svg/localOfferIcon.svg';
-import { ReactComponent as ExploreIcon } from '../../assets/svg/exploreIcon.svg';
-import { ReactComponent as PersonOutlineIcon } from '../../assets/svg/personOutlineIcon.svg';
+import { Link } from 'react-router-dom';
 import TopCTA from './TopCTA';
+import { ReactComponent as ArrowIcon } from '../../assets/svg/arrow_forward.svg';
 
 const Navbar = () => {
-  const navigate = useNavigate();
-  const location = useLocation();
-
-  const pathMatchRoute = (route) => route === location.pathname;
-
+  const logo = '/images/mineral-logo.png';
   return (
     <header>
       <TopCTA />
@@ -17,7 +11,9 @@ const Navbar = () => {
         <div className="navbar-container">
           <ul className="ul-row">
             <li>
-              <Link to="/">Logo</Link>
+              <Link to="/">
+                <img src={logo} alt="Mineral Logo" className="logo" />
+              </Link>
             </li>
           </ul>
           <ul className="ul-row">
@@ -34,7 +30,8 @@ const Navbar = () => {
           <ul className="ul-row">
             <li>
               <Link to="/book-appointment" className="btn">
-                Book Your Appointment
+                <span>Book Your Appointment</span>{' '}
+                <ArrowIcon className="svg-icon" />
               </Link>
             </li>
           </ul>

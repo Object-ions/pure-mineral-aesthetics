@@ -55,11 +55,23 @@ footer {
   padding: 1rem;
   border: none;
   border-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  text-decoration: none;
+  color: inherit;
 }
 
 .svg-icon {
   width: 1.5rem;
   height: 1.5rem;
+}
+
+.logo,
+.logotype {
+  width: 4rem;
+  height: 4rem;
 }
 
 // *** Navbar *** //
