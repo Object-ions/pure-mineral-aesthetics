@@ -5,17 +5,15 @@ const SecondInformative = () => {
     <div className="second-informative">
       <div className="second-container">
         <div className="second-text">
+          <h2>Delve Deeper into Skincare</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-            efficitur, massa ultricies aliquet iaculis, ante leo tempor lorem,
-            eget euismod arcu risus vitae justo. Donec et mauris ex. Mauris
-            rhoncus dictum faucibus. Vivamus at metus rutrum, blandit velit eu,
-            porttitor urna. Donec at mollis velit. Aliquam commodo vestibulum
-            massa, nec tempus lacus lacinia in. Nullam in eros et tortor tempus
-            aliquet et a elit.
+            Our skincare collection is curated to include mineral-rich formulas
+            that protect and enhance your skin. Each product is a blend of
+            nature's best ingredients, ensuring you always put your purest face
+            forward.
           </p>
           <Link to={'/'} className="btn">
-            Learn More About Our Treatments
+            Check Out Our Skincare Collection
           </Link>
         </div>
         <div className="second-image-wrapper">
