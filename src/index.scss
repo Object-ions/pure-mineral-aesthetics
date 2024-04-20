@@ -350,7 +350,13 @@ footer {
         .btn {
           width: 10rem;
           align-self: flex-end;
+          color: $blackColor;
         }
+      }
+
+      .logo {
+        height: 8rem;
+        width: 8rem;
       }
     }
   }

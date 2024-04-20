@@ -1,13 +1,15 @@
 const ContactForm = () => {
+  const logo = '/images/mineral-logo.png';
   return (
     <div className="contact-form">
       <div className="contact-container">
         <div className="form-wrapper">
-          <h2>Logo</h2>
+          <img src={logo} alt="logo" className="logo" />
+          <h2>Get in Touch</h2>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi
-            magnam consequuntur temporibus illum magni. Voluptatibus
-            exercitationem quos maiores maxime officia.
+            Ready to embark on a journey to pure, radiant skin? Contact us to
+            schedule your consultation and take the first step towards a glowing
+            complexion.
           </p>
           <form>
             <input
