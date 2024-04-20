@@ -57,6 +57,11 @@ footer {
   border-radius: 1.5rem;
 }
 
+.svg-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
 // *** Navbar *** //
 .navbar-container {
   @include container-setup;
@@ -86,10 +91,20 @@ footer {
   display: flex;
   color: $blackColor;
 
+  ul {
+    margin: 0 1rem;
+  }
+
   a,
   li {
     color: $whiteColor;
     font-size: 0.85rem;
+    margin: 0 0.25rem;
+    line-height: 02rem;
+  }
+
+  .svg-icon {
+    fill: $whiteColor;
   }
 }
 
