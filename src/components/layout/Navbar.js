@@ -3,7 +3,7 @@ import TopCTA from './TopCTA';
 import { ReactComponent as ArrowIcon } from '../../assets/svg/arrow_forward.svg';
 
 const Navbar = () => {
-  const logo = '/images/mineral-logo.png';
+  const logo = '/images/mineral-logotype.png';
   return (
     <header>
       <TopCTA />
@@ -12,7 +12,7 @@ const Navbar = () => {
           <ul className="ul-row">
             <li>
               <Link to="/">
-                <img src={logo} alt="Mineral Logo" className="logo" />
+                <img src={logo} alt="Mineral Logo" className="logotype" />
               </Link>
             </li>
           </ul>
