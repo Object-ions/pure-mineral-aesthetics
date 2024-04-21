@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
-
 @import './scss/variables';
 @import './scss/mixins';
 
@@ -12,7 +10,7 @@ html::-webkit-scrollbar {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: $fontText;
   background-color: $whiteColor;
   margin: 0;
   box-sizing: border-box;
@@ -52,9 +50,9 @@ footer {
 
 .btn {
   background-color: $accentColor;
-  padding: 1rem;
+  padding: 0.7rem;
   border: none;
-  border-radius: 1.5rem;
+  // border-radius: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -99,11 +97,16 @@ footer {
   a {
     color: $blackColor;
   }
+
+  .btn {
+    background: none;
+    border: 1px solid $blackColor;
+  }
 }
 
 .topCTA {
   height: 3rem;
-  background-color: $mainColor;
+  background-color: $accentColor;
   display: flex;
   color: $blackColor;
 
@@ -127,11 +130,14 @@ footer {
 // *** Hero *** //
 .hero {
   background: $secondaryColor;
+  background-position: top right;
+  background-repeat: no-repeat;
+  // background-size: contain;
 
   .hero-container {
     @include container-setup;
     padding: 0;
-    height: 60vh;
+    height: 50rem;
     display: flex;
     flex-direction: row;
 
@@ -150,6 +156,7 @@ footer {
 
       p {
         margin-bottom: 3rem;
+        color: $whiteColor;
       }
 
       button {
@@ -157,30 +164,15 @@ footer {
         padding: 1rem 2rem;
       }
     }
-
-    .hero-image {
-      background: {
-        image: url('http://zahavmedspa.com/wp-content/uploads/2023/05/AdobeStock_560695369-scaled.jpg');
-        position: top left;
-        repeat: no-repeat;
-        size: cover;
-        attachment: fixed;
-      }
-      height: 100%;
-      width: 50%;
-    }
   }
 }
 
 // *** Informative *** //
 .informative {
-  background: {
-    image: url('http://zahavmedspa.com/wp-content/uploads/2023/05/Group-26.png');
-    position: center center;
-    repeat: no-repeat;
-    size: cover;
-    attachment: fixed;
-  }
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 
   .informative-container {
     @include container-setup;
@@ -194,21 +186,18 @@ footer {
       width: 50%;
       display: flex;
       flex-direction: column;
-      justify-content: space-evenly;
+      justify-content: center;
 
       h3 {
-        color: $whiteColor;
-        font-size: 2rem;
+        color: $blackColor;
+        font-size: 3rem;
+        font-family: $fontTitle;
+        margin: 0;
       }
 
       p {
-        margin-bottom: 1rem;
-        color: $whiteColor;
-      }
-
-      button {
-        font-size: 1rem;
-        padding: 1rem 2rem;
+        margin-bottom: 0.5rem;
+        color: $blackColor;
       }
     }
 
@@ -230,46 +219,64 @@ footer {
 
 // *** Services *** //
 .services-section {
-  background: $secondaryColor;
+  background: #f0f0f0;
 
   .services-container {
     @include container-setup;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1.5rem;
-    color: $whiteColor;
-    background: $secondaryColor;
+    background: #f0f0f0;
     text-align: center;
 
     > :first-child {
       grid-column: 1 / -1;
       font-size: 4rem;
+      font-family: $fontTitle;
+      font-weight: 600;
+      font-style: italic;
       margin: 3rem 0 0 0;
-      color: $blackColor;
+      color: #000;
     }
 
     > :last-child {
       grid-column: 1 / -1;
-      color: $blackColor;
+      background: $secondaryColor;
+      color: #000;
+      border: 1px solid #000;
     }
 
     .service-card {
-      background: $mainColor;
+      background: #f0f0f0;
+      color: #000;
       height: 25rem;
       padding: 1rem;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-evenly;
-      border: 0.15rem solid $accentColor;
+      border: 1px solid #000;
 
       h4 {
         font-size: 1.5rem;
+        color: #000;
+        margin: 0;
+      }
+
+      .image-wrapper {
+        height: 5rem;
+        width: 5rem;
+
+        img {
+          height: 100%;
+          width: 100%;
+        }
       }
     }
 
     .btn {
       width: 20rem;
+      background: none;
     }
   }
 }
@@ -293,10 +300,11 @@ footer {
       flex-direction: column;
       color: $blackColor;
       align-items: center;
-      justify-content: space-around;
+      justify-content: center;
 
       a {
-        color: $blackColor;
+        color: $whiteColor;
+        background: $blackColor;
         border: 0.1rem solid $blackColor;
       }
     }
@@ -338,7 +346,7 @@ footer {
         input {
           padding: 0.8rem;
           border: 1px solid #ccc;
-          border-radius: 0.8rem;
+          // border-radius: 0.8rem;
           font-size: 0.9rem;
 
           &:focus {
@@ -351,12 +359,21 @@ footer {
           width: 10rem;
           align-self: flex-end;
           color: $blackColor;
+          border: 1px solid $blackColor;
         }
       }
 
       .logo {
         height: 8rem;
         width: 8rem;
+      }
+    }
+
+    .contact-us {
+      margin: 3rem 0;
+      p {
+        margin: 0.25rem;
+        font-size: 1.25rem;
       }
     }
   }
@@ -366,7 +383,7 @@ footer {
 .testimonials {
   width: 100%;
   margin: auto;
-  background: $whiteColor;
+  background: #f0f0f0;
 
   .testimonials-container {
     background: $whiteColor;
@@ -376,11 +393,11 @@ footer {
     overflow-x: auto;
     gap: 20px;
     padding: 20px;
-    background-color: #f0f0f0; // Example background color
+    background-color: #f0f0f0;
 
     .testimonial-card {
-      flex: 0 0 auto; // Prevent cards from stretching
-      width: 300px; // Fixed width for each card
+      flex: 0 0 auto;
+      width: 300px;
       padding: 15px;
       border-radius: 10px;
       background-color: white;
@@ -398,18 +415,18 @@ footer {
         .star-icon {
           width: 24px;
           height: 24px;
-          fill: #ffd700; // Gold color for stars
+          fill: #ffd700;
         }
 
         .testimonial-text {
           font-size: 16px;
-          color: #333; // Darker text color for readability
+          color: #333;
           margin: 10px 0;
         }
 
         .testimonial-author {
           font-size: 14px;
-          color: #666; // Lighter text color for author
+          color: #666;
           font-style: italic;
         }
       }
@@ -427,6 +444,15 @@ footer {
 
   a {
     color: $whiteColor;
+  }
+
+  h3 {
+    font-family: $fontTitle;
+    margin: 0;
+  }
+
+  h4 {
+    margin: 0;
   }
 
   .svg-icon {
@@ -454,5 +480,85 @@ footer {
 
   a {
     color: $blackColor;
+  }
+}
+
+.treatments {
+  @include container-setup;
+
+  h2 {
+    font-family: $fontTitle;
+    text-align: center;
+    font-size: 4rem;
+    color: $accentColor;
+  }
+
+  .treatments-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); // Creates three columns
+    gap: 20px; // Maintains space between grid items
+    justify-content: center;
+    align-items: stretch;
+
+    .treatments-card {
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: $whiteColor;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+
+  .btn {
+    font-weight: bold;
+  }
+}
+
+.about-page {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+
+  h1 {
+    color: $accentColor;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-top: 20px;
+    color: $blackColor;
+  }
+
+  .contact-info {
+    margin-top: 40px;
+
+    h2 {
+      font-size: 2rem;
+      color: $mainColor;
+    }
+
+    p {
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+  }
+}
+
+// Responsive adjustments for smaller screens
+@media (max-width: 768px) {
+  .treatments-container {
+    grid-template-columns: repeat(2, 1fr); // Two columns for medium screens
+  }
+}
+
+@media (max-width: 480px) {
+  .treatments-container {
+    grid-template-columns: 1fr; // One column for small screens
   }
 }

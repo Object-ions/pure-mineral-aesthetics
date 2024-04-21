@@ -1,4 +1,10 @@
 // Fonts
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+$fontTitle: 'Playfair Display', serif;
+$fontText: 'Montserrat', sans-serif;
 
 // Colors
 /*
@@ -17,3 +23,5 @@ $whiteColor: #faf9f6;
 
 // Sizing
 $maxWidth: 1400px;
+
+$heroImg: '/images/website-images/hero.png';
