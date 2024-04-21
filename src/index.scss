@@ -42,6 +42,7 @@ footer {
   padding: 0;
   display: flex;
   flex-direction: row;
+  align-items: center;
 
   li {
     margin: 0 0.5rem;
@@ -78,29 +79,39 @@ footer {
 // *** Navbar *** //
 .navbar-container {
   @include container-setup;
-  padding: 0;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
-.navbar {
-  @include underline-a;
-  height: 5rem;
-  background-color: $whiteColor;
-  z-index: 1000;
+.navbar-logo {
+  flex: 1;
+
+  .logo {
+    width: 100px;
+  }
+}
+
+.menu-toggle {
+  display: none;
+  border: none;
+  background: none;
+
+  img {
+    width: 30px;
+  }
+}
+
+.navbar-links,
+.navbar-profile {
   display: flex;
   align-items: center;
-  color: $blackColor;
+  gap: 1rem;
 
   a {
+    text-decoration: none;
     color: $blackColor;
-  }
-
-  .btn {
-    background: none;
-    border: 1px solid $blackColor;
   }
 }
 
@@ -569,3 +580,5 @@ footer {
     grid-template-columns: 1fr; // One column for small screens
   }
 }
+
+@import './scss/responsive';

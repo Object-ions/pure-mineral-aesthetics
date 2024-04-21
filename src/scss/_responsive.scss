@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .navbar-container {
+    padding: 1rem;
+  }
+
+  .navbar-links,
+  .navbar-profile {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: $whiteColor;
+    gap: 0;
+
+    a {
+      display: block;
+      padding: 5px;
+    }
+
+    &.open {
+      display: flex;
+    }
+
+    &.open-inline {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+
+  .navbar-profile {
+    top: 216px;
+  }
+}
