@@ -1,3 +1,4 @@
+import './SignUp.scss';
 import { useState } from 'react';
 import {
   getAuth,
@@ -67,7 +68,7 @@ const SignUp = () => {
     <>
       <div className="pageContainer">
         <header>
-          <p className="pageHeader"> Welcome Back!</p>
+          <p className="pageHeader"> Sign Up</p>
         </header>
 
         <form onSubmit={onSubmit}>

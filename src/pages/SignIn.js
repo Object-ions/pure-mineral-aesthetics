@@ -1,3 +1,4 @@
+import './SignUp.scss';
 import { useState } from 'react';
 import { toast } from 'react-toastify';
 import { Link, useNavigate } from 'react-router-dom';
