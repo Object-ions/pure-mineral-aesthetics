@@ -44,7 +44,7 @@ footer {
   flex-direction: row;
 
   li {
-    margin: 0 2rem;
+    margin: 0 0.5rem;
   }
 }
 
@@ -52,7 +52,6 @@ footer {
   background-color: $accentColor;
   padding: 0.7rem;
   border: none;
-  // border-radius: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -87,6 +86,7 @@ footer {
 }
 
 .navbar {
+  @include underline-a;
   height: 5rem;
   background-color: $whiteColor;
   z-index: 1000;

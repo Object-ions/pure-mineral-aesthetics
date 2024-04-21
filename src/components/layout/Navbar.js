@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import TopCTA from './TopCTA';
-import { ReactComponent as ArrowIcon } from '../../assets/svg/arrow_forward.svg';
 
 const Navbar = () => {
   const logo = '/images/mineral-logotype.png';
@@ -10,7 +9,7 @@ const Navbar = () => {
       <div className="navbar">
         <div className="navbar-container">
           <ul className="ul-row">
-            <li>
+            <li className="logotype">
               <Link to="/">
                 <img src={logo} alt="Mineral Logo" className="logotype" />
               </Link>
@@ -29,10 +28,11 @@ const Navbar = () => {
           </ul>
           <ul className="ul-row">
             <li>
-              <Link to="/book-appointment" className="btn">
-                <span>Book Your Appointment</span>{' '}
-                <ArrowIcon className="svg-icon" />
-              </Link>
+              <Link to="/sign-in">Sign In</Link>
+            </li>
+            <li>/</li>
+            <li>
+              <Link to="/sign-up">Sign Up</Link>
             </li>
           </ul>
         </div>
