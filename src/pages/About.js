@@ -1,6 +1,10 @@
+import aboutImage from '../assets/website-images/about.jpg';
 const About = () => {
   return (
     <div className="about-page">
+      <div className="image-wrapper">
+        <img src={aboutImage} alt="About us" />
+      </div>
       <h1>About Pure Mineral Aesthetics</h1>
       <p>
         At Pure Mineral Aesthetics, we believe in the power of natural beauty
@@ -18,12 +22,9 @@ const About = () => {
 
       <div className="contact-info">
         <h2>Contact Us</h2>
-        <p>
-          <strong>Phone:</strong> 972-353-4623
-        </p>
-        <p>
-          <strong>Address:</strong> 4023 18th St, Ste B, San Francisco, CA 94114
-        </p>
+        <p>Phone: 972-353-4623</p>
+        <p>Email: hello@mineral.com</p>
+        <p>Address: 4023 18th St, Ste B, San Francisco, CA 94114</p>
       </div>
     </div>
   );

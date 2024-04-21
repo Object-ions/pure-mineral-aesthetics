@@ -51,7 +51,7 @@ const ServicesSection = () => {
             abilities to enhance skin elasticity and sculpt your features.
           </p>
         </div>
-        <Link to="/" className="btn">
+        <Link to="/treatments" className="btn">
           <span>Explore All Our Treatments</span>
           <ArrowIcon className="svg-icon" />
         </Link>

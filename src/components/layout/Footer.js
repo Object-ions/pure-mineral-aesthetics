@@ -40,9 +40,9 @@ const Footer = () => {
         </div>
         <div className="navigation">
           <h4>Map website:</h4>
-          <Link to={'/'}>Testimonials</Link>
-          <Link to={'/'}>About</Link>
-          <Link to={'/'}>Contact</Link>
+          <Link to={'/treatments'}>Treatments</Link>
+          <Link to={'/about'}>About</Link>
+          <Link to={'/contact-us'}>Contact</Link>
         </div>
       </div>
       <Copyrights />
