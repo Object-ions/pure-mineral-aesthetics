@@ -1,13 +1,12 @@
+import bgImage from '../assets/website-images/bg-section.jpg';
+import blackStone from '../assets/website-images/black-stone.jpg';
 const Informative = () => {
   return (
-    <div className="informative">
+    <div className="informative" style={{ backgroundImage: `url(${bgImage})` }}>
       <div className="informative-container">
         <div className="informative-image">
           <div className="image-wrapper">
-            <img
-              src="https://zahavmedspa.com/wp-content/uploads/2023/05/anna-tarazevich-HX3MOurRLPE-unsplash-1583x2048.jpg"
-              alt="skincare"
-            />
+            <img src={blackStone} alt="skincare" />
           </div>
         </div>
 

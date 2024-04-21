@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import plainSkincare from '../assets/website-images/plain-skincare.png';
 
 const SecondInformative = () => {
   return (
@@ -17,10 +18,7 @@ const SecondInformative = () => {
           </Link>
         </div>
         <div className="second-image-wrapper">
-          <img
-            src="http://zahavmedspa.com/wp-content/uploads/2023/05/enecta-cannabis-extracts-80wCkpt-IKE-unsplash-1-scaled.jpg"
-            alt="skincare"
-          />
+          <img src={plainSkincare} alt="skincare" />
         </div>
       </div>
     </div>
