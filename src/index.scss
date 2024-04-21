@@ -510,10 +510,6 @@ footer {
       justify-content: space-between;
     }
   }
-
-  .btn {
-    font-weight: bold;
-  }
 }
 
 .about-page {
@@ -526,13 +522,22 @@ footer {
     color: $accentColor;
     text-align: center;
     font-size: 2.5rem;
+    font-family: $fontTitle;
+    font-size: 4rem;
   }
 
   p {
     font-size: 1.2rem;
     line-height: 1.6;
-    margin-top: 20px;
     color: $blackColor;
+  }
+
+  .image-wrapper {
+    max-width: 100%;
+
+    img {
+      width: 100%;
+    }
   }
 
   .contact-info {
@@ -541,11 +546,13 @@ footer {
     h2 {
       font-size: 2rem;
       color: $mainColor;
+      margin: 1rem 0;
     }
 
     p {
       font-size: 1.1rem;
       font-weight: bold;
+      margin: 0;
     }
   }
 }
