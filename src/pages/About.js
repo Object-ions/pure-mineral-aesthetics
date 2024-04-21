@@ -2,10 +2,10 @@ import aboutImage from '../assets/website-images/about.jpg';
 const About = () => {
   return (
     <div className="about-page">
+      <h1>About Pure Mineral Aesthetics</h1>
       <div className="image-wrapper">
         <img src={aboutImage} alt="About us" />
       </div>
-      <h1>About Pure Mineral Aesthetics</h1>
       <p>
         At Pure Mineral Aesthetics, we believe in the power of natural beauty
         enhanced through science. Our treatments are designed to harness the

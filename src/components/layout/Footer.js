@@ -41,8 +41,11 @@ const Footer = () => {
         <div className="navigation">
           <h4>Map website:</h4>
           <Link to={'/treatments'}>Treatments</Link>
+          <Link to={'/product'}>Product</Link>
           <Link to={'/about'}>About</Link>
           <Link to={'/contact-us'}>Contact</Link>
+          <Link to={'/sign-up'}>Sign Up</Link>
+          <Link to={'/profile'}>Profile</Link>
         </div>
       </div>
       <Copyrights />

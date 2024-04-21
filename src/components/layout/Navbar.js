@@ -17,6 +17,9 @@ const Navbar = () => {
           </ul>
           <ul className="ul-row">
             <li>
+              <Link to="/products">Products</Link>
+            </li>
+            <li>
               <Link to="/treatments">Treatments</Link>
             </li>
             <li>
