@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "gem": "Amber",
+    "name": "Amber Glow",
+    "description": [
+      "Prized for its ability to dissolve negative energy, amber balances emotions and attracts good luck while helping even out skin tone and erasing fine lines."
+    ],
+    "price": 290
+  },
+  {
+    "id": 2,
+    "gem": "Amethyst",
+    "name": "Amethyst Purify",
+    "description": [
+      "Known as the “soul stone,” amethyst purifies negative energy, cleanses and promotes oxygen flow to the skin."
+    ],
+    "price": 150
+  },
+  {
+    "id": 3,
+    "gem": "Aquamarine",
+    "name": "Aquamarine Refresh",
+    "description": [
+      "Associated with courage, strength, and confidence, aquamarine soothes, moisturizes, and refreshes skin."
+    ],
+    "price": 175
+  },
+  {
+    "id": 4,
+    "gem": "Aventurine",
+    "name": "Aventurine Opportunity",
+    "description": [
+      "The “stone of opportunity” helps sweep away bad habits, encourages new patterns of prosperity, soothes sensitive skin, and handles acne and blemishes."
+    ],
+    "price": 120
+  },
+  {
+    "id": 5,
+    "gem": "Diamond",
+    "name": "Diamond Brilliance",
+    "description": [
+      "The “king of gems” stimulates creativity and promotes strength while nourishing and exfoliating skin, along with preventing collagen degradation."
+    ],
+    "price": 300
+  },
+  {
+    "id": 6,
+    "gem": "24K Gold",
+    "name": "Gold Radiance",
+    "description": [
+      "Symbolizing flexibility on one’s spiritual path and associated with vitality, gold delivers much-needed antioxidants to the skin and reduces wrinkles."
+    ],
+    "price": 200
+  },
+  {
+    "id": 7,
+    "gem": "Pearl",
+    "name": "Pearl Luster",
+    "description": [
+      "Viewed as a vehicle for channeling wisdom and long a symbol of purity, pearl controls oily skin and fights free radicals to produce anti-aging benefits."
+    ],
+    "price": 150
+  },
+  {
+    "id": 8,
+    "gem": "Rock Crystal",
+    "name": "Crystal Clarity",
+    "description": [
+      "Amplifying whichever energy it receives, rock crystal symbolizes purity and helps skin by cleansing, moisturizing, and promoting overall skin health."
+    ],
+    "price": 130
+  },
+  {
+    "id": 9,
+    "gem": "Rose Quartz",
+    "name": "Rose Quartz Love",
+    "description": [
+      "Known as a “love stone” because of its ability to strengthen various types of love, rose quartz also helps diminish wrinkles, even out skin tone, and help skin glow."
+    ],
+    "price": 210
+  },
+  {
+    "id": 10,
+    "gem": "Ruby",
+    "name": "Ruby Passion",
+    "description": [
+      "This talisman of passion, protection, and prosperity was associated with wisdom and helps nourish skin while promoting a youthful glow."
+    ],
+    "price": 150
+  },
+  {
+    "id": 11,
+    "gem": "Sapphire",
+    "name": "Sapphire Wisdom",
+    "description": [
+      "Believed to be connected to the heavens and to open the doors to spiritual insights, sapphire energizes skin for anti-aging, soothes inflamed skin, and combats wrinkles."
+    ],
+    "price": 220
+  }
+]
