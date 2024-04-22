@@ -35,12 +35,59 @@
     top: 216px;
   }
 }
-
+// *** CTA *** //
 .topCTA {
   @media (max-width: 768px) {
     .address-icon,
     .address-text {
       display: none;
+    }
+  }
+}
+
+// *** Hero *** //
+@media (max-width: 768px) {
+  .hero {
+    .hero-container {
+      // height: auto;
+      // flex-direction: column;
+      padding: 2rem;
+      background: rgba($color: #000000, $alpha: 0.4);
+    }
+
+    .hero-text {
+      width: 100% !important;
+      // padding: 0;
+      // align-items: center;
+      // justify-content: center;
+
+      h2 {
+        // font-size: 2.5rem;
+        text-align: center;
+      }
+
+      p {
+        // font-size: 1rem;
+        // margin-bottom: 2rem;
+        text-align: center;
+      }
+
+      .btn {
+        // font-size: 0.9rem;
+        padding: 0.8rem 1.6rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text {
+    h2 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 0.9rem;
     }
   }
 }
