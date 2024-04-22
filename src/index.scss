@@ -495,7 +495,7 @@ footer {
     color: $blackColor;
   }
 }
-
+// *** Treatments *** //
 .treatments {
   @include container-setup;
 
@@ -524,6 +524,8 @@ footer {
     }
   }
 }
+
+// *** About *** //
 
 .about-page {
   padding: 20px;

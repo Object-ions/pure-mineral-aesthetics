@@ -147,7 +147,7 @@
   }
 }
 
-// *** Services Section Responsive Styles *** //
+// *** Services Section  *** //
 
 @media (max-width: 768px) {
   .services-section .services-container {
@@ -168,5 +168,14 @@
       width: auto;
       // margin: 0 auto;
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .treatments .treatments-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .treatments h2 {
+    grid-column: 1 / -1;
   }
 }
