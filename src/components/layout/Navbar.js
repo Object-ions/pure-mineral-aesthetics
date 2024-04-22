@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import TopCTA from './TopCTA';
 import hamburger from '../../assets/svg/hamburger-icon.png';
 
@@ -15,23 +15,35 @@ const Navbar = () => {
       <div className="navbar">
         <div className="navbar-container">
           <div className="navbar-logo">
-            <Link to="/">
+            <NavLink to="/" exact activeClassName="active">
               <img src={logo} alt="Mineral Logo" className="logo" />
-            </Link>
+            </NavLink>
           </div>
           <button className="menu-toggle" onClick={toggleMenu}>
             <img src={hamburger} alt="Menu" />
           </button>
           <nav className={`navbar-links ${isOpen ? 'open' : ''}`}>
-            <Link to="/products">Products</Link>
-            <Link to="/treatments">Treatments</Link>
-            <Link to="/about">About</Link>
-            <Link to="/contact-us">Contact Us</Link>
+            <NavLink to="/products" activeClassName="active">
+              Products
+            </NavLink>
+            <NavLink to="/treatments" activeClassName="active">
+              Treatments
+            </NavLink>
+            <NavLink to="/about" activeClassName="active">
+              About
+            </NavLink>
+            <NavLink to="/contact-us" activeClassName="active">
+              Contact Us
+            </NavLink>
           </nav>
           <div className={`navbar-profile ${isOpen ? 'open-inline' : ''}`}>
-            <Link to="/sign-in">Sign In</Link>
+            <NavLink to="/sign-in" activeClassName="active">
+              Sign In
+            </NavLink>
             <span>/</span>
-            <Link to="/sign-up">Sign Up</Link>
+            <NavLink to="/sign-up" activeClassName="active">
+              Sign Up
+            </NavLink>
           </div>
         </div>
       </div>
