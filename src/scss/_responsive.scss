@@ -49,31 +49,22 @@
 @media (max-width: 768px) {
   .hero {
     .hero-container {
-      // height: auto;
-      // flex-direction: column;
       padding: 2rem;
       background: rgba($color: #000000, $alpha: 0.4);
     }
 
     .hero-text {
       width: 100% !important;
-      // padding: 0;
-      // align-items: center;
-      // justify-content: center;
 
       h2 {
-        // font-size: 2.5rem;
         text-align: center;
       }
 
       p {
-        // font-size: 1rem;
-        // margin-bottom: 2rem;
         text-align: center;
       }
 
       .btn {
-        // font-size: 0.9rem;
         padding: 0.8rem 1.6rem;
       }
     }
@@ -122,19 +113,12 @@
 
 @media (max-width: 550px) {
   .second-informative .second-container {
-    // display: grid;
-    // grid-template-columns: 1fr;
-    // grid-template-rows: auto auto;
-    // grid-gap: 1rem;
-
     .second-text {
       grid-column: 1 / -1;
-      // grid-row: 1;
     }
 
     .second-image-wrapper {
       grid-column: 1 / -1;
-      // grid-row: 2;
       height: auto;
       padding: 2rem;
 
@@ -154,19 +138,12 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
 
-    > :first-child,
-    > :last-child {
-      // grid-column: 1 / -1;
-    }
-
     .service-card {
       height: auto;
-      // padding: 1rem;
     }
 
     .btn {
       width: auto;
-      // margin: 0 auto;
     }
   }
 }
