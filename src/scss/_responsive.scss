@@ -91,3 +91,29 @@
     }
   }
 }
+
+// *** Informative *** //
+@media (max-width: 768px) {
+  .informative {
+    background-attachment: scroll;
+
+    .informative-container {
+      flex-direction: column;
+      padding: 2rem;
+    }
+
+    .informative-image {
+      display: none;
+    }
+
+    .informative-text {
+      background: rgba($color: #ccc, $alpha: 0.2);
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .informative-image {
+    display: none;
+  }
+}
