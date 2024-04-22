@@ -23,9 +23,9 @@ const Navbar = () => {
             <img src={hamburger} alt="Menu" />
           </button>
           <nav className={`navbar-links ${isOpen ? 'open' : ''}`}>
-            <NavLink to="/products" activeClassName="active">
+            {/* <NavLink to="/products" activeClassName="active">
               Products
-            </NavLink>
+            </NavLink> */}
             <NavLink to="/treatments" activeClassName="active">
               Treatments
             </NavLink>

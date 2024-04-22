@@ -1,6 +1,5 @@
 import React from 'react';
 import { ReactComponent as StarFull } from '../assets/svg/star-full.svg';
-import { ReactComponent as StarHalf } from '../assets/svg/star-half.svg';
 
 const Testimonials = () => {
   const testimonials = [
