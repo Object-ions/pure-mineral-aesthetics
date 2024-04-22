@@ -11,7 +11,7 @@ This project is a conceptual mockup website designed and developed for a skincar
 [View Live Demo](https://pure-mineral.netlify.app/)
 
 This website has been deployed to Netlify
-To access the live demo, please visit the following link:
+To access the live demo, please visit the link above.
 
 ## Technical Stack
 
@@ -32,6 +32,26 @@ To access the live demo, please visit the following link:
 - User Authentication: Secure sign-up and sign-in functionalities powered by Firebase.
 - Real-time Database: Firestore NoSQL database integration.
 - Elegant UI/UX.
+
+## Installation
+
+To get started with this project, clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/Object-ions/pure-mineral-aesthetics.git
+cd pure-mineral-aesthetics
+npm install
+```
+
+## Usage
+
+After installation, you can run the project locally:
+
+```bash
+npm run start
+```
+
+Navigate to `http://localhost:3000` to view the project.
 
 ## Known Bugs
 
