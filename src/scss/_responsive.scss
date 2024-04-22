@@ -117,3 +117,32 @@
     display: none;
   }
 }
+
+// *** Second Informative *** //
+
+@media (max-width: 550px) {
+  .second-informative .second-container {
+    // display: grid;
+    // grid-template-columns: 1fr;
+    // grid-template-rows: auto auto;
+    // grid-gap: 1rem;
+
+    .second-text {
+      grid-column: 1 / -1;
+      // grid-row: 1;
+    }
+
+    .second-image-wrapper {
+      grid-column: 1 / -1;
+      // grid-row: 2;
+      height: auto;
+      padding: 2rem;
+
+      img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
