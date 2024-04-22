@@ -14,7 +14,7 @@ const Hero = () => {
             skin and enhance your natural beauty. Experience the touch of
             pureness and sophistication in every session.
           </p>
-          <Link to="/" className="btn">
+          <Link to="/treatments" className="btn">
             <span>Explore Treatments</span>
             <ArrowIcon className="svg-icon" />
           </Link>

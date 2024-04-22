@@ -11,7 +11,7 @@
 @mixin container-setup {
   max-width: $maxWidth;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 @mixin underline-a {

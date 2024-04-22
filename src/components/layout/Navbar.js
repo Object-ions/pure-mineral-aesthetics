@@ -1,43 +1,50 @@
-import { Link } from 'react-router-dom';
+import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import TopCTA from './TopCTA';
+import hamburger from '../../assets/svg/hamburger-icon.png';
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
   const logo = '/images/mineral-logotype.png';
+
+  const toggleMenu = () => setIsOpen(!isOpen);
+
   return (
     <header>
       <TopCTA />
       <div className="navbar">
         <div className="navbar-container">
-          <ul className="ul-row">
-            <li className="logotype">
-              <Link to="/">
-                <img src={logo} alt="Mineral Logo" className="logotype" />
-              </Link>
-            </li>
-          </ul>
-          <ul className="ul-row">
-            <li>
-              <Link to="/products">Products</Link>
-            </li>
-            <li>
-              <Link to="/treatments">Treatments</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/contact-us">Contact Us</Link>
-            </li>
-          </ul>
-          <ul className="ul-row">
-            <li>
-              <Link to="/sign-in">Sign In</Link>
-            </li>
-            <li>/</li>
-            <li>
-              <Link to="/sign-up">Sign Up</Link>
-            </li>
-          </ul>
+          <div className="navbar-logo">
+            <NavLink to="/" exact activeClassName="active">
+              <img src={logo} alt="Mineral Logo" className="logo" />
+            </NavLink>
+          </div>
+          <button className="menu-toggle" onClick={toggleMenu}>
+            <img src={hamburger} alt="Menu" />
+          </button>
+          <nav className={`navbar-links ${isOpen ? 'open' : ''}`}>
+            {/* <NavLink to="/products" activeClassName="active">
+              Products
+            </NavLink> */}
+            <NavLink to="/treatments" activeClassName="active">
+              Treatments
+            </NavLink>
+            <NavLink to="/about" activeClassName="active">
+              About
+            </NavLink>
+            <NavLink to="/contact-us" activeClassName="active">
+              Contact Us
+            </NavLink>
+          </nav>
+          <div className={`navbar-profile ${isOpen ? 'open-inline' : ''}`}>
+            <NavLink to="/sign-in" activeClassName="active">
+              Sign In
+            </NavLink>
+            <span>/</span>
+            <NavLink to="/sign-up" activeClassName="active">
+              Sign Up
+            </NavLink>
+          </div>
         </div>
       </div>
     </header>

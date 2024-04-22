@@ -42,6 +42,7 @@ footer {
   padding: 0;
   display: flex;
   flex-direction: row;
+  align-items: center;
 
   li {
     margin: 0 0.5rem;
@@ -78,36 +79,45 @@ footer {
 // *** Navbar *** //
 .navbar-container {
   @include container-setup;
-  padding: 0;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
-.navbar {
+.navbar-logo {
+  .logo {
+    width: 100px;
+  }
+}
+
+.menu-toggle {
+  display: none;
+  border: none;
+  background: none;
+
+  img {
+    width: 30px;
+  }
+}
+
+.navbar-links,
+.navbar-profile {
   @include underline-a;
-  height: 5rem;
-  background-color: $whiteColor;
-  z-index: 1000;
   display: flex;
   align-items: center;
-  color: $blackColor;
+  gap: 1rem;
 
   a {
+    text-decoration: none;
     color: $blackColor;
-  }
-
-  .btn {
-    background: none;
-    border: 1px solid $blackColor;
   }
 }
 
 .topCTA {
   height: 3rem;
   background-color: $accentColor;
-  display: flex;
+
   color: $blackColor;
 
   ul {
@@ -132,7 +142,6 @@ footer {
   background: $secondaryColor;
   background-position: top right;
   background-repeat: no-repeat;
-  // background-size: contain;
 
   .hero-container {
     @include container-setup;
@@ -176,14 +185,14 @@ footer {
 
   .informative-container {
     @include container-setup;
-    padding: 0;
-    height: 35rem;
+    padding: 0 0 3rem 0;
+
     display: flex;
     flex-direction: row;
 
     .informative-text {
       padding: 0 2rem;
-      width: 50%;
+
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -193,11 +202,13 @@ footer {
         font-size: 3rem;
         font-family: $fontTitle;
         margin: 0;
+        text-align: center;
       }
 
       p {
         margin-bottom: 0.5rem;
         color: $blackColor;
+        text-align: center;
       }
     }
 
@@ -206,7 +217,7 @@ footer {
       width: 50%;
 
       .image-wrapper {
-        height: 100%;
+        height: 30rem;
 
         img {
           height: 100%;
@@ -346,7 +357,6 @@ footer {
         input {
           padding: 0.8rem;
           border: 1px solid #ccc;
-          // border-radius: 0.8rem;
           font-size: 0.9rem;
 
           &:focus {
@@ -482,7 +492,7 @@ footer {
     color: $blackColor;
   }
 }
-
+// *** Treatments *** //
 .treatments {
   @include container-setup;
 
@@ -495,8 +505,8 @@ footer {
 
   .treatments-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); // Creates three columns
-    gap: 20px; // Maintains space between grid items
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
     justify-content: center;
     align-items: stretch;
 
@@ -511,6 +521,8 @@ footer {
     }
   }
 }
+
+// *** About *** //
 
 .about-page {
   padding: 20px;
@@ -557,15 +569,4 @@ footer {
   }
 }
 
-// Responsive adjustments for smaller screens
-@media (max-width: 768px) {
-  .treatments-container {
-    grid-template-columns: repeat(2, 1fr); // Two columns for medium screens
-  }
-}
-
-@media (max-width: 480px) {
-  .treatments-container {
-    grid-template-columns: 1fr; // One column for small screens
-  }
-}
+@import './scss/responsive';

@@ -1,0 +1,158 @@
+// *** Navbar *** //
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .navbar-links,
+  .navbar-profile {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: $whiteColor;
+    gap: 0;
+
+    a {
+      display: block;
+      padding: 5px;
+    }
+
+    &.open {
+      display: flex;
+    }
+
+    &.open-inline {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+
+  .navbar-profile {
+    top: 216px;
+  }
+}
+// *** CTA *** //
+.topCTA {
+  @media (max-width: 768px) {
+    .address-icon,
+    .address-text {
+      display: none;
+    }
+  }
+}
+
+// *** Hero *** //
+@media (max-width: 768px) {
+  .hero {
+    .hero-container {
+      padding: 2rem;
+      background: rgba($color: #000000, $alpha: 0.4);
+    }
+
+    .hero-text {
+      width: 100% !important;
+
+      h2 {
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+      }
+
+      .btn {
+        padding: 0.8rem 1.6rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text {
+    h2 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+// *** Informative *** //
+@media (max-width: 768px) {
+  .informative {
+    background-attachment: scroll;
+
+    .informative-container {
+      flex-direction: column;
+      padding: 2rem;
+    }
+
+    .informative-image {
+      display: none;
+    }
+
+    .informative-text {
+      background: rgba($color: #ccc, $alpha: 0.2);
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .informative-image {
+    display: none;
+  }
+}
+
+// *** Second Informative *** //
+
+@media (max-width: 550px) {
+  .second-informative .second-container {
+    .second-text {
+      grid-column: 1 / -1;
+    }
+
+    .second-image-wrapper {
+      grid-column: 1 / -1;
+      height: auto;
+      padding: 2rem;
+
+      img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+// *** Services Section  *** //
+
+@media (max-width: 768px) {
+  .services-section .services-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+
+    .service-card {
+      height: auto;
+    }
+
+    .btn {
+      width: auto;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .treatments .treatments-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .treatments h2 {
+    grid-column: 1 / -1;
+  }
+}
