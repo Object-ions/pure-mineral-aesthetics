@@ -146,3 +146,27 @@
     }
   }
 }
+
+// *** Services Section Responsive Styles *** //
+
+@media (max-width: 768px) {
+  .services-section .services-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+
+    > :first-child,
+    > :last-child {
+      // grid-column: 1 / -1;
+    }
+
+    .service-card {
+      height: auto;
+      // padding: 1rem;
+    }
+
+    .btn {
+      width: auto;
+      // margin: 0 auto;
+    }
+  }
+}
