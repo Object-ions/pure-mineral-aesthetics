@@ -1,10 +1,7 @@
+// *** Navbar *** //
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
-  }
-
-  .navbar-container {
-    padding: 1rem;
   }
 
   .navbar-links,
@@ -36,5 +33,14 @@
 
   .navbar-profile {
     top: 216px;
+  }
+}
+
+.topCTA {
+  @media (max-width: 768px) {
+    .address-icon,
+    .address-text {
+      display: none;
+    }
   }
 }

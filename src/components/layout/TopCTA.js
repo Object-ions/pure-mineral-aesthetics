@@ -15,12 +15,14 @@ const TopCTA = () => {
             <CallIcon className="svg-icon" />
           </li>
           <li>972-353-4623</li>
-          <li>
+          <li className="address-icon">
             <LocationIcon className="svg-icon" />
           </li>
-          <li>4023 18th St, Ste B, San-Francisco, Ca 94114</li>
+          <li className="address-text">
+            4023 18th St, Ste B, San-Francisco, Ca 94114
+          </li>
         </ul>
-        <ul className="ul-row">
+        <ul className="ul-row social-media">
           <li>
             <Link to="/">
               <FacebookIcon className="svg-icon" />
