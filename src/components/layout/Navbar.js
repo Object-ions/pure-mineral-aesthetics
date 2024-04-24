@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
 import TopCTA from './TopCTA';
 import hamburger from '../../assets/svg/hamburger-icon.png';
