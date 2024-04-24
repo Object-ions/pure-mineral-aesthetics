@@ -110,12 +110,13 @@ const Profile = () => {
                 setChangeDetails((prevState) => !prevState);
               }}
             >
-              {changeDetails ? 'done' : 'Click to change'}
+              {changeDetails ? 'Done' : 'Edit'}
             </p>
           </div>
 
           <div className="profileCard">
             <form>
+              <label>Full Name:</label>
               <input
                 type="text"
                 id="name"
@@ -125,6 +126,7 @@ const Profile = () => {
                 onChange={onChange}
               />
 
+              <label>Email:</label>
               <input
                 type="text"
                 id="email"
@@ -134,6 +136,7 @@ const Profile = () => {
                 onChange={onChange}
               />
 
+              <label>Phone Number:</label>
               <input
                 type="text"
                 id="number"

@@ -9,7 +9,7 @@ import { setDoc, doc, serverTimestamp } from 'firebase/firestore';
 import { db } from '../Firebase.config';
 import { toast } from 'react-toastify';
 import { Link, useNavigate } from 'react-router-dom';
-// import { ReactComponent as ArrowRightIcon } from '../assets/svg/keyboardArrowRightIcon.svg';
+import { ReactComponent as ArrowRightIcon } from '../assets/svg/keyboardArrowRightIcon.svg';
 import visibilityIcon from '../assets/svg/visibilityIcon.svg';
 import OAuth from '../components/OAuth';
 
@@ -140,9 +140,16 @@ const SignUp = () => {
           </Link>
 
           <div className="signUpBar">
-            <button className="signUpButton">
+            <button
+              className="signUpButton"
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
               <p className="signUpText">Sign Up</p>
-              {/* <ArrowRightIcon fill="#fff" width="34px" height="34px" /> */}
+              <ArrowRightIcon fill="#fff" width="34px" height="34px" />
             </button>
           </div>
         </form>
