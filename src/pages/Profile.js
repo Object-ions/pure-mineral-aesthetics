@@ -29,7 +29,9 @@ const Profile = () => {
             number: userSnap.data().number,
           }));
         }
-      } catch {}
+      } catch (error) {
+        toast.error("Could not get user's number");
+      }
     };
 
     fetchUserDetails();
@@ -38,6 +40,7 @@ const Profile = () => {
   const onLogOut = () => {
     auth.signOut();
     navigate('/');
+    toast.success('You have been logged out');
   };
 
   const onSubmit = async () => {

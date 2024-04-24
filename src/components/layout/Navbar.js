@@ -48,7 +48,7 @@ const Navbar = () => {
           </nav>
           <div className={`navbar-profile ${isOpen ? 'open-inline' : ''}`}>
             {user ? (
-              <NavLink to="/profile">Profile</NavLink>
+              <NavLink to="/profile">{user.displayName}</NavLink>
             ) : (
               <>
                 <NavLink
