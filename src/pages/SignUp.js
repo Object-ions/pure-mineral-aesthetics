@@ -37,14 +37,17 @@ const SignUp = () => {
     e.preventDefault();
 
     try {
+      // Getting the Auth value from getAuth()
       const auth = getAuth();
 
+      // Register the user with the fx that return a promise and assigning it into userCredential
       const userCredential = await createUserWithEmailAndPassword(
         auth,
         email,
         password
       );
 
+      // Getting the actual user info (will use us for the db)
       const user = userCredential.user;
 
       const formDataCopy = { ...formData };
@@ -54,10 +57,12 @@ const SignUp = () => {
       // setDoc is what actually going to update our db and set the user in the users collection
       await setDoc(doc(db, 'users', user.uid), formDataCopy);
 
+      // Updating the display name
       updateProfile(auth.currentUser, {
         displayName: name,
       });
 
+      // Redirect to home
       navigate('/');
     } catch (error) {
       toast.error('Something went wrong with registration');

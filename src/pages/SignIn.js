@@ -82,7 +82,7 @@ const SignIn = () => {
           </div>
 
           <Link to={'/forgot-password'} className="forgotPasswordLink">
-            Forgot Passwprd?
+            Forgot Password?
           </Link>
 
           <div className="signInBar">
