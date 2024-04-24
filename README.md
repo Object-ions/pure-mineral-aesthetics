@@ -55,8 +55,7 @@ Navigate to `http://localhost:3000` to view the project.
 
 ## Known Bugs
 
-1. As of the current release, the sign-up and sign-in features are experiencing issues that are actively being worked on.
-2. Database with 'Products' is not available yet.
+1. Database with 'Products' is not available yet.
 
 ## Disclaimer
 
