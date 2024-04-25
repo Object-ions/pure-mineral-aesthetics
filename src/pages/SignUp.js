@@ -22,7 +22,7 @@ const SignUp = () => {
     password: '',
   });
 
-  const { name, email, password } = formData;
+  const { name, email, number, password } = formData;
 
   const navigate = useNavigate();
 
@@ -37,27 +37,45 @@ const SignUp = () => {
     e.preventDefault();
 
     try {
+      // Getting the Auth value from getAuth()
       const auth = getAuth();
 
+      // Register the user with the fx that return a promise and assigning it into userCredential
       const userCredential = await createUserWithEmailAndPassword(
         auth,
         email,
         password
       );
 
+      // Getting the actual user info (will use us for the db)
       const user = userCredential.user;
 
+      // We don't want to change the formData state so we will spread across and copy it (name, email, password)
       const formDataCopy = { ...formData };
+
+      // We don't want to copy the password to get submitted to the db so we call 'delete'
       delete formDataCopy.password;
+
+      // Adding timestamp property when submitting the form
       formDataCopy.timestamp = serverTimestamp();
 
       // setDoc is what actually going to update our db and set the user in the users collection
-      await setDoc(doc(db, 'users', user.uid), formDataCopy);
+      await setDoc(
+        // set the database 'db' with the collection 'users' and it's ID. the second parameter (formData) id the data we want to push to the db collection.
+        doc(
+          db,
+          'users',
+          user.uid /* the user ID we are getting from line 51 */
+        ),
+        formDataCopy
+      );
 
+      // Updating the display name
       updateProfile(auth.currentUser, {
         displayName: name,
       });
 
+      // Redirect to home
       navigate('/');
     } catch (error) {
       toast.error('Something went wrong with registration');
@@ -75,7 +93,7 @@ const SignUp = () => {
           <input
             type="text"
             className="nameInput"
-            placeholder="Name"
+            placeholder="Full Name"
             id="name"
             value={name}
             onChange={onChange}
@@ -87,6 +105,15 @@ const SignUp = () => {
             placeholder="Email"
             id="email"
             value={email}
+            onChange={onChange}
+          />
+
+          <input
+            type="text"
+            className="numberInput"
+            placeholder="Phone Number"
+            id="number"
+            value={number}
             onChange={onChange}
           />
 
@@ -113,8 +140,15 @@ const SignUp = () => {
           </Link>
 
           <div className="signUpBar">
-            <p className="signUpText">Sign Up</p>
-            <button className="signUpButton">
+            <button
+              className="signUpButton"
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <p className="signUpText">Sign Up</p>
               <ArrowRightIcon fill="#fff" width="34px" height="34px" />
             </button>
           </div>

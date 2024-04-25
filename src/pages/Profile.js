@@ -1,8 +1,9 @@
-import { useState } from 'react';
+import './Profile.scss';
+import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getAuth, updateProfile } from 'firebase/auth';
 import { db } from '../Firebase.config';
-import { updateDoc, doc } from '@firebase/firestore';
+import { updateDoc, doc, getDoc } from '@firebase/firestore';
 import { toast } from 'react-toastify';
 
 const Profile = () => {
@@ -11,15 +12,36 @@ const Profile = () => {
   const [formData, setFormData] = useState({
     name: auth.currentUser.displayName,
     email: auth.currentUser.email,
+    number: '',
   });
 
-  const { name, email } = formData;
+  const { name, email, number } = formData;
 
   const navigate = useNavigate();
+
+  useEffect(() => {
+    const fetchUserDetails = async () => {
+      const userRef = doc(db, 'users', auth.currentUser.uid);
+      try {
+        const userSnap = await getDoc(userRef);
+        if (userSnap.exists()) {
+          setFormData((prevState) => ({
+            ...prevState,
+            number: userSnap.data().number,
+          }));
+        }
+      } catch (error) {
+        toast.error("Could not get user's number");
+      }
+    };
+
+    fetchUserDetails();
+  }, [auth.currentUser]);
 
   const onLogOut = () => {
     auth.signOut();
     navigate('/');
+    toast.success('You have been logged out');
   };
 
   const onSubmit = async () => {
@@ -36,19 +58,23 @@ const Profile = () => {
         await updateProfile(auth.currentUser, {
           displayName: name,
         });
+      }
 
-        // Update in Fire Store
-        /*
+      // Update in Fire Store
+      /*
         Next, the function updates the user's name in Firestore. To do this, it first creates a reference to the user's document in Firestore using doc. The doc function requires the database instance (db), the collection name ('users'), and the document ID, which is the user's UID (auth.currentUser.uid).
 
         With this reference (userRef), updateDoc is then used to update the document. updateDoc takes two arguments: the document reference and an object with the fields to update ({ name: name }). This operation is also awaited.
         */
 
-        const userRef = doc(db, 'users', auth.currentUser.uid);
-        await updateDoc(userRef, {
-          name: name,
-        });
-      }
+      const userRef = doc(db, 'users', auth.currentUser.uid);
+      await updateDoc(userRef, {
+        name: name,
+        number: number,
+      });
+
+      toast.success('Profile updated');
+
       // Error handling
       /*
     If any errors occur during the try block execution (either in updating the Firebase Authentication profile or the Firestore document), the catch block catches these errors. The catch block pops a message using Toastify
@@ -85,12 +111,13 @@ const Profile = () => {
                 setChangeDetails((prevState) => !prevState);
               }}
             >
-              {changeDetails ? 'done' : 'change'}
+              {changeDetails ? 'Done' : 'Edit'}
             </p>
           </div>
 
           <div className="profileCard">
             <form>
+              <label>Full Name:</label>
               <input
                 type="text"
                 id="name"
@@ -99,14 +126,24 @@ const Profile = () => {
                 value={name}
                 onChange={onChange}
               />
+
+              <label>Email:</label>
               <input
                 type="text"
                 id="email"
-                className={
-                  !changeDetails ? 'profileEmail' : 'profileEmailActive'
-                }
-                disabled={!changeDetails}
+                className=""
+                disabled={true}
                 value={email}
+                onChange={onChange}
+              />
+
+              <label>Phone Number:</label>
+              <input
+                type="text"
+                id="number"
+                className=""
+                disabled={!changeDetails}
+                value={number}
                 onChange={onChange}
               />
             </form>

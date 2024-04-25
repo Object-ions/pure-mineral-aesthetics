@@ -11,7 +11,7 @@ const Treatments = () => {
             <h3>{treatment.name}</h3>
             <p>{treatment.description}</p>
             <p className="treatment-price">${treatment.price}</p>
-            <Link to="/booking" className="btn">
+            <Link to="/" className="btn">
               Book This Treatment
             </Link>
           </div>

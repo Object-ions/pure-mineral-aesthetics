@@ -3,7 +3,7 @@ import { getAuth, onAuthStateChanged } from 'firebase/auth';
 
 export const useAuthStatus = () => {
   const [loggedIn, setLoggedIn] = useState(false);
-  const [checkingStatus, setCheckingStatus] = useState(true);
+  const [loading, setLoading] = useState(true);
   const isMounted = useRef(true);
 
   useEffect(() => {
@@ -13,7 +13,7 @@ export const useAuthStatus = () => {
         if (user) {
           setLoggedIn(true);
         }
-        setCheckingStatus(false);
+        setLoading(false);
       });
     }
 
@@ -22,7 +22,7 @@ export const useAuthStatus = () => {
     };
   }, [isMounted]);
 
-  return { loggedIn, checkingStatus };
+  return { loggedIn, loading };
 };
 
 // Protected routes in v6

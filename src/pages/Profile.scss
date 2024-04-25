@@ -1,0 +1,88 @@
+@import '../scss/_variables.scss';
+.profile {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  background: #f8f8f8;
+
+  .profileHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    .pageHeader {
+      font-size: 2rem;
+      color: $accentColor;
+    }
+
+    .logOut {
+      background: $accentColor;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1rem;
+
+      &:hover {
+        background-color: darken($accentColor, 10%);
+      }
+    }
+  }
+
+  .profileDetailsHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    .profileDetailsText {
+      font-size: 1.25rem;
+      color: $blackColor;
+    }
+
+    .changePersonalDetails {
+      color: $accentColor;
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .profileCard {
+    background: white;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      label {
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+      }
+
+      input {
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 1rem;
+
+        &:disabled {
+          background: #e9ecef;
+          color: $blackColor;
+        }
+
+        &.profileNameActive {
+          background: white;
+          color: $blackColor;
+        }
+      }
+    }
+  }
+}

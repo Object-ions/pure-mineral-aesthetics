@@ -13,7 +13,9 @@ import Treatments from './pages/Treatments';
 import About from './pages/About';
 import ContactForm from './components/ContactForm';
 import 'leaflet/dist/leaflet.css';
-// import Products from './pages/Products';
+import Collections from './pages/Collections';
+import Collection from './pages/Collection';
+import Product from './pages/Product';
 function App() {
   return (
     <>
@@ -25,7 +27,15 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/treatments" element={<Treatments />} />
-              {/* <Route path="/products" element={<Products />} /> */}
+              <Route path="/collections" element={<Collections />} />
+              <Route
+                path="/collection/:collectionName"
+                element={<Collection />}
+              />
+              <Route
+                path="/collection/:collectionName/:productId"
+                element={<Product />}
+              />
               <Route path="/about" element={<About />} />
               <Route path="/contact-us" element={<ContactForm />} />
               <Route path="/profile" element={<PrivateRoute />}>
@@ -41,7 +51,7 @@ function App() {
         </div>
       </Router>
 
-      <ToastContainer />
+      <ToastContainer autoClose={3000} />
     </>
   );
 }

@@ -82,12 +82,19 @@ const SignIn = () => {
           </div>
 
           <Link to={'/forgot-password'} className="forgotPasswordLink">
-            Forgot Passwprd?
+            Forgot Password?
           </Link>
 
           <div className="signInBar">
-            <p className="signInText">Sign In</p>
-            <button className="signInButton">
+            <button
+              className="signInButton"
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <p className="signInText">Sign In</p>
               <ArrowRightIcon fill="#fff" width="34px" height="34px" />
             </button>
           </div>

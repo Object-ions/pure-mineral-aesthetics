@@ -1,13 +1,23 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
+import { getAuth, onAuthStateChanged } from 'firebase/auth';
 import TopCTA from './TopCTA';
 import hamburger from '../../assets/svg/hamburger-icon.png';
 
 const Navbar = () => {
+  const [user, setUser] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
   const logo = '/images/mineral-logotype.png';
 
   const toggleMenu = () => setIsOpen(!isOpen);
+
+  useEffect(() => {
+    const auth = getAuth();
+    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+      setUser(currentUser);
+    });
+    return () => unsubscribe(); // Cleanup subscription on unmount
+  }, []);
 
   return (
     <header>
@@ -23,9 +33,9 @@ const Navbar = () => {
             <img src={hamburger} alt="Menu" />
           </button>
           <nav className={`navbar-links ${isOpen ? 'open' : ''}`}>
-            {/* <NavLink to="/products" activeClassName="active">
-              Products
-            </NavLink> */}
+            <NavLink to="/collections" activeClassName="active">
+              Collections
+            </NavLink>
             <NavLink to="/treatments" activeClassName="active">
               Treatments
             </NavLink>
@@ -37,13 +47,29 @@ const Navbar = () => {
             </NavLink>
           </nav>
           <div className={`navbar-profile ${isOpen ? 'open-inline' : ''}`}>
-            <NavLink to="/sign-in" activeClassName="active">
-              Sign In
-            </NavLink>
-            <span>/</span>
-            <NavLink to="/sign-up" activeClassName="active">
-              Sign Up
-            </NavLink>
+            {user ? (
+              <NavLink to="/profile">{user.displayName}</NavLink>
+            ) : (
+              <>
+                <NavLink
+                  to="/sign-in"
+                  className={({ isActive }) =>
+                    isActive ? 'active' : undefined
+                  }
+                >
+                  Sign In
+                </NavLink>
+                <span>/</span>
+                <NavLink
+                  to="/sign-up"
+                  className={({ isActive }) =>
+                    isActive ? 'active' : undefined
+                  }
+                >
+                  Sign Up
+                </NavLink>
+              </>
+            )}
           </div>
         </div>
       </div>
