@@ -555,6 +555,68 @@ footer {
   }
 }
 
+.collection {
+  .collection-container {
+    @include container-setup;
+    p,
+    a {
+      color: $blackColor;
+    }
+
+    .collection-card {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+      .collection-card-product {
+        text-align: center;
+        padding: 2rem;
+        position: relative;
+
+        .image-wrapper {
+          height: 15rem;
+
+          img {
+            max-height: 100%;
+            width: auto;
+            object-fit: contain;
+            margin: 0 auto;
+          }
+        }
+
+        .product-name,
+        .product-description {
+          height: 3rem;
+          overflow: hidden;
+        }
+
+        .product-name {
+          font-size: 1.1rem;
+        }
+
+        hr {
+          border: none;
+          height: 2px;
+          width: 3rem;
+          background-color: #ccc;
+          margin: 1rem auto;
+        }
+
+        p {
+          margin: 0.5rem 0;
+        }
+
+        .offer {
+          position: absolute;
+          top: 0;
+          left: 0;
+          font-style: italic;
+          color: #cc0000;
+        }
+      }
+    }
+  }
+}
+
 // *** About *** //
 
 .about-page {

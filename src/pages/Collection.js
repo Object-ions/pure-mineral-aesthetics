@@ -51,14 +51,14 @@ export const Collection = () => {
   }, [params.collectionName]);
 
   return (
-    <div>
-      <h1>{params.collectionName} Collection</h1>
-      {loading ? (
-        <Spinner />
-      ) : collectionProducts.length > 0 ? (
-        <>
-          <main>
-            <ul>
+    <div className="collection">
+      <div className="collection-container">
+        <h1>{params.collectionName.toUpperCase()} Collection</h1>
+        {loading ? (
+          <Spinner />
+        ) : collectionProducts.length > 0 ? (
+          <>
+            <ul className="collection-card">
               {collectionProducts.map((product) => (
                 <ProductItem
                   product={product.data}
@@ -67,13 +67,13 @@ export const Collection = () => {
                 />
               ))}
             </ul>
-          </main>
-        </>
-      ) : (
-        <p>No products exists for {params.collectionName}</p>
-      )}
-      <div>
-        <Link to="/collections">Go back to all collections</Link>
+          </>
+        ) : (
+          <p>No products exists for {params.collectionName}</p>
+        )}
+        <div>
+          <Link to="/collections">Go back to all collections</Link>
+        </div>
       </div>
     </div>
   );

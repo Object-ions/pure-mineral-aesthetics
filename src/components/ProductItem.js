@@ -20,16 +20,14 @@ const ProductItem = ({ product, id }) => {
     : addComma(regularPrice);
 
   return (
-    <li className="">
-      <Link
-        to={`/collection/${collectionName}/${id}`}
-        className=""
-        style={{ background: '#3c3c3c' }}
-      >
-        <img src={imgUrls} alt={name} className="" style={{ width: '40px' }} />
-        <p>{name}</p>
+    <li className="collection-card-product">
+      <Link to={`/collection/${collectionName}/${id}`}>
+        <div className="image-wrapper">
+          <img src={imgUrls} alt={name} />
+        </div>
+        <p className="product-name">{name}</p>
         <hr />
-        <p>{description}</p>
+        <p className="product-description">{description}</p>
         {offer && <p className="offer">Special Offer!</p>}
         <p>$ {formattedPrice}</p>
       </Link>
