@@ -9,6 +9,7 @@ import { toast } from 'react-toastify';
 const Product = () => {
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
+  // eslint-disable-next-line
   const [sharedLinkCopied, setSharedLinkCopied] = useState(false);
 
   const navigate = useNavigate();

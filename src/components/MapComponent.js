@@ -1,4 +1,3 @@
-import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 
 const center = [37.761222, -122.434559]; // Latitude and Longitude of the address
