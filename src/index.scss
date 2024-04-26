@@ -36,6 +36,19 @@ footer {
   height: 100vh;
 }
 
+.offer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-style: italic;
+  color: #cc0000;
+}
+
+.was {
+  text-decoration: line-through;
+  font-size: 0.8rem;
+}
+
 //  *** Utility classes *** //
 .ul-row {
   margin: 0;
@@ -491,8 +504,10 @@ footer {
     color: $blackColor;
   }
 }
-// *** Treatments *** //
-.treatments {
+
+// *** Treatments & Collections *** //
+.treatments,
+.collections {
   @include container-setup;
 
   h2 {
@@ -502,21 +517,206 @@ footer {
     color: $accentColor;
   }
 
-  .treatments-container {
+  .treatments-container,
+  .collections-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 2rem;
     justify-content: center;
-    align-items: stretch;
+    align-items: start;
 
-    .treatments-card {
-      padding: 20px;
+    .treatments-card,
+    .collections-card {
+      padding: 2rem;
+      border: 1px solid #ccc;
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       background-color: $whiteColor;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      flex-grow: 1;
+      align-self: stretch;
+      min-height: 350px;
+    }
+  }
+
+  .collections-container {
+    grid-template-columns: 1fr;
+
+    .collections-card {
+      background-position: bottom right !important;
+      background-size: cover !important;
+      background-repeat: no-repeat !important;
+      background-size: auto 400px !important;
+
+      .collections-text {
+        width: 20rem;
+
+        h3,
+        p {
+          color: #000;
+        }
+      }
+    }
+    .caviar > h3 {
+      color: #f0f0f0 !important;
+    }
+    .caviar p {
+      color: #f0f0f0 !important;
+    }
+  }
+}
+
+// Collection specials //
+.collection {
+  .collection-container {
+    @include container-setup;
+    p,
+    a {
+      color: $blackColor;
+    }
+
+    .collection-card {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+      .collection-card-product {
+        text-align: center;
+        padding: 2rem;
+        position: relative;
+
+        .image-wrapper {
+          height: 15rem;
+
+          img {
+            max-height: 100%;
+            width: auto;
+            object-fit: contain;
+            margin: 0 auto;
+          }
+        }
+
+        .product-name,
+        .product-description {
+          height: 3rem;
+          overflow: hidden;
+        }
+
+        .product-name {
+          font-size: 1.1rem;
+        }
+
+        hr {
+          border: none;
+          height: 2px;
+          width: 3rem;
+          background-color: #ccc;
+          margin: 1rem auto;
+        }
+
+        p {
+          margin: 0.5rem 0;
+        }
+      }
+    }
+  }
+}
+
+// *** Single Product *** //
+.product {
+  display: flex;
+
+  .product-container {
+    @include container-setup;
+    @include underline-a;
+
+    a {
+      color: $blackColor;
+    }
+
+    .product-link {
+      position: relative;
+
+      img {
+        position: absolute;
+        right: 0;
+        cursor: pointer;
+        background: #fff;
+        padding: 0.7rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+      }
+
+      .offer {
+        background-color: $accentColor;
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        left: -2rem;
+      }
+    }
+
+    .product-image {
+      .image-wrapper {
+        height: 30rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          max-height: 400px;
+          max-width: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+
+    .product-info {
+      background: #ebebeb;
+      padding: 3rem;
+      margin-bottom: 3rem;
+
+      .tags {
+        display: flex;
+        gap: 0.5rem;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+
+        p {
+          background-color: #dedede;
+          padding: 0.25rem 0.5rem;
+          font-size: 0.85rem;
+          font-weight: bold;
+          border-radius: 5px;
+        }
+      }
+
+      h3 {
+        margin-top: 0;
+        font-size: 2rem;
+        font-weight: bold;
+        color: $blackColor;
+      }
+
+      p {
+        margin-top: 1rem;
+        font-size: 1rem;
+        line-height: 1.6;
+        color: $blackColor;
+      }
+
+      .benefits {
+        margin-top: 2rem;
+
+        ul {
+          list-style: inside;
+
+          li {
+            margin: 0.2rem 0;
+          }
+        }
+      }
     }
   }
 }
