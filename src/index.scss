@@ -491,8 +491,10 @@ footer {
     color: $blackColor;
   }
 }
-// *** Treatments *** //
-.treatments {
+
+// *** Treatments & Collections *** //
+.treatments,
+.collections {
   @include container-setup;
 
   h2 {
@@ -502,21 +504,53 @@ footer {
     color: $accentColor;
   }
 
-  .treatments-container {
+  .treatments-container,
+  .collections-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 2rem;
     justify-content: center;
-    align-items: stretch;
+    align-items: start;
 
-    .treatments-card {
-      padding: 20px;
+    .treatments-card,
+    .collections-card {
+      padding: 2rem;
+      border: 1px solid #ccc;
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       background-color: $whiteColor;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      flex-grow: 1;
+      align-self: stretch;
+      min-height: 350px;
+    }
+  }
+
+  .collections-container {
+    grid-template-columns: 1fr;
+
+    .collections-card {
+      background-position: bottom right !important;
+      background-size: cover !important;
+      background-repeat: no-repeat !important;
+      background-size: auto 400px !important;
+
+      .collections-text {
+        width: 20rem;
+
+        h3,
+        p {
+          color: #000;
+        }
+      }
+    }
+    .caviar > h3 {
+      color: #f0f0f0 !important;
+    }
+    .caviar p {
+      color: #f0f0f0 !important;
     }
   }
 }
