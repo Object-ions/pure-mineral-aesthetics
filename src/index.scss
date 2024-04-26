@@ -36,6 +36,19 @@ footer {
   height: 100vh;
 }
 
+.offer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-style: italic;
+  color: #cc0000;
+}
+
+.was {
+  text-decoration: line-through;
+  font-size: 0.8rem;
+}
+
 //  *** Utility classes *** //
 .ul-row {
   margin: 0;
@@ -555,6 +568,7 @@ footer {
   }
 }
 
+// Collection specials //
 .collection {
   .collection-container {
     @include container-setup;
@@ -604,13 +618,103 @@ footer {
         p {
           margin: 0.5rem 0;
         }
+      }
+    }
+  }
+}
 
-        .offer {
-          position: absolute;
-          top: 0;
-          left: 0;
-          font-style: italic;
-          color: #cc0000;
+// *** Single Product *** //
+.product {
+  display: flex;
+
+  .product-container {
+    @include container-setup;
+    @include underline-a;
+
+    a {
+      color: $blackColor;
+    }
+
+    .product-link {
+      position: relative;
+
+      img {
+        position: absolute;
+        right: 0;
+        cursor: pointer;
+        background: #fff;
+        padding: 0.7rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+      }
+
+      .offer {
+        background-color: $accentColor;
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        left: -2rem;
+      }
+    }
+
+    .product-image {
+      .image-wrapper {
+        height: 30rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          max-height: 400px;
+          max-width: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+
+    .product-info {
+      background: #ebebeb;
+      padding: 3rem;
+      margin-bottom: 3rem;
+
+      .tags {
+        display: flex;
+        gap: 0.5rem;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+
+        p {
+          background-color: #dedede;
+          padding: 0.25rem 0.5rem;
+          font-size: 0.85rem;
+          font-weight: bold;
+          border-radius: 5px;
+        }
+      }
+
+      h3 {
+        margin-top: 0;
+        font-size: 2rem;
+        font-weight: bold;
+        color: $blackColor;
+      }
+
+      p {
+        margin-top: 1rem;
+        font-size: 1rem;
+        line-height: 1.6;
+        color: $blackColor;
+      }
+
+      .benefits {
+        margin-top: 2rem;
+
+        ul {
+          list-style: inside;
+
+          li {
+            margin: 0.2rem 0;
+          }
         }
       }
     }

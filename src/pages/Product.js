@@ -52,35 +52,43 @@ const Product = () => {
   return (
     <div className="product">
       <div className="product-container">
-        <div className="share-icon-div">
+        <div className="product-link">
+          {offer && <p className="offer">Special Offer!</p>}
           <img src={shareIcon} alt="Share Icon" onClick={copyLink} />
-          <p>Share</p>
         </div>
+
         <div className="product-image">
           <div className="image-wrapper">
             <img src={imgUrls[0]} alt={name} />
           </div>
         </div>
-        <div
-          className="tags"
-          style={{ display: 'flex', justifyContent: 'space-between' }}
-        >
-          <p>Anti-Wrinkles</p>
-          <p>Firming</p>
-          <p>Lifting</p>
+        <div className="product-info">
+          <div className="tags">
+            <p>Anti-Wrinkles</p>
+            <p>Firming</p>
+            <p>Lifting</p>
+          </div>
+          <h3>{name}</h3>
+          <p>{description}</p>
+
+          {offer ? (
+            <p>
+              $ {discountedPrice} <span className="was">$ {regularPrice}</span>
+            </p>
+          ) : (
+            <p>$ {regularPrice}</p>
+          )}
+          <div className="benefits">
+            <ul>
+              {benefits.map((benefit, index) => (
+                <li key={index}>{benefit}</li>
+              ))}
+            </ul>
+          </div>
         </div>
-        <p>{name}</p>
-        <p>{description}</p>
-        {offer && <p className="offer">Special Offer!</p>}
-        {offer ? <p>$ {discountedPrice}</p> : <p>$ {regularPrice}</p>}
-        <div className="benefits">
-          <ul>
-            {benefits.map((benefit, index) => (
-              <li key={index}>{benefit}</li>
-            ))}
-          </ul>
-        </div>
-        <Link onClick={() => navigate(-1)}>Go Back</Link>
+        <Link onClick={() => navigate(-1)}>
+          Go Back to {collectionName} Collection
+        </Link>
       </div>
     </div>
   );
