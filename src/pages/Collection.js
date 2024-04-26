@@ -12,6 +12,7 @@ import {
 import { db } from '../Firebase.config';
 import { toast } from 'react-toastify';
 import Spinner from '../components/Spinner';
+import ProductItem from '../components/ProductItem';
 
 export const Collection = () => {
   const [collectionProducts, setCollectionProducts] = useState(null);
@@ -26,7 +27,7 @@ export const Collection = () => {
 
         const q = query(
           collectionRef,
-          where('collection', '==', params.collectionName),
+          where('collectionName', '==', params.collectionName),
           limit(10)
         );
 
@@ -35,14 +36,12 @@ export const Collection = () => {
         const products = [];
 
         querySnap.forEach((doc) => {
-          console.log(doc.data());
           products.push({ id: doc.id, data: doc.data() });
         });
 
         setCollectionProducts(products);
         setLoading(false);
       } catch (error) {
-        console.log(error);
         toast.error('Could not fetch the collection');
         setLoading(false);
       }
@@ -53,7 +52,26 @@ export const Collection = () => {
 
   return (
     <div>
-      {params.collectionName} Collection
+      <h1>{params.collectionName} Collection</h1>
+      {loading ? (
+        <Spinner />
+      ) : collectionProducts.length > 0 ? (
+        <>
+          <main>
+            <ul>
+              {collectionProducts.map((product) => (
+                <ProductItem
+                  product={product.data}
+                  id={product.id}
+                  key={product.id}
+                />
+              ))}
+            </ul>
+          </main>
+        </>
+      ) : (
+        <p>No products exists for {params.collectionName}</p>
+      )}
       <div>
         <Link to="/collections">Go back to all collections</Link>
       </div>
