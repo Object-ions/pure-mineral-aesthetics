@@ -1,0 +1,502 @@
+[
+  {
+    "id": "1",
+    "collectionName": "skin caviar",
+    "name": "eye lift",
+    "benefits": ["anti-wrinkles", "firming", "lifting"],
+    "title": "lifting and firming eye serum",
+    "description": "",
+    "regularPrice": "570",
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dw6e4c2d4c/images/products/95790-01391-44/SKIN-CAVIAR-EYE-LIFT_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "2",
+    "collectionName": "skin caviar",
+    "name": "essence-in-lotion",
+    "benefits": ["firming", "hydrating"],
+    "title": "pre-serum treatment",
+    "description": "",
+    "regularPrice": "320",
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dw1c6b56f8/images/products/95790-01203-40/SKIN-CAVIAR-ESSENCE-IN-LOTION_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "3",
+    "collectionName": "skin caviar",
+    "name": "eye complex",
+    "benefits": ["firming", "hydrating", "soothing"],
+    "title": "firming eye gel",
+    "description": "",
+    "regularPrice": null,
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dwd2f2e868/images/products/95790-00242-72/Essence-Of-Skin-Caviar-EYE-COMPLEX_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "4",
+    "collectionName": "skin caviar",
+    "name": "luxe eye cream",
+    "benefits": ["firming", "lifting", "nourishing"],
+    "title": "lifting and firming eye cream",
+    "description": "",
+    "regularPrice": "435",
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dw69992873/images/products/95790-01252-02/SKIN-CAVIAR-LUXE-EYE-CREAM_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "5",
+    "collectionName": "skin caviar",
+    "name": "harmony l'extrait",
+    "benefits": ["anti-wrinkles", "lifting", "volume-enhancing"],
+    "title": "intensive resculpting treatment",
+    "description": "",
+    "regularPrice": "860",
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dwa03d957c/images/products/95790-01366-46/95790-01366-46_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "6",
+    "collectionName": "skin caviar",
+    "name": "liquid lift",
+    "benefits": ["firming", "lifting", "smoothing"],
+    "title": "potent lifting serum",
+    "description": "",
+    "regularPrice": "785",
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dwdf441f82/images/products/95790-01329-45/SKIN-CAVIAR-LIQUID-LIFT_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "7",
+    "collectionName": "skin caviar",
+    "name": "luxe cream",
+    "benefits": ["firming", "lifting", "nourishing"],
+    "title": "rich and velvety face cream",
+    "description": "",
+    "regularPrice": "595",
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dwc6bf5f0d/images/products/95790-01379-45/SKIN-CAVIAR-LUXE-CREAM_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "8",
+    "collectionName": "skin caviar",
+    "name": "luxe cream sheer",
+    "benefits": ["firming", "lifting", "nourishing"],
+    "title": "light and airy face cream",
+    "description": "",
+    "regularPrice": "595",
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dw607dce3a/images/products/95790-01379-48/SKIN-CAVIAR-LUXE-CREAM-SHEER_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "9",
+    "collectionName": "skin caviar",
+    "name": "absolute filler",
+    "benefits": ["firming", "nourishing", "volume-enhancing"],
+    "title": "volume-enhancing moisturising cream",
+    "description": "",
+    "regularPrice": "725",
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dw6eb6472e/images/products/95790-01315-59/SKIN-CAVIAR-ABSOLUTE-FILLER_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "10",
+    "collectionName": "skin caviar",
+    "name": "nighttime oil",
+    "benefits": ["anti-wrinkles", "firming", "nourishing"],
+    "title": "line-smoothing anti-ageing night treatment",
+    "description": "",
+    "regularPrice": "580",
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dwb06d3c76/images/products/95790-01347-78/SKIN-CAVIAR-NIGHTTIME-OIL_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "11",
+    "collectionName": "skin caviar",
+    "name": "luxe sleep mask",
+    "benefits": ["firming", "smoothing"],
+    "title": "overnight lifting and firming cream mask",
+    "description": "",
+    "regularPrice": "445",
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dw0ad4c8e3/images/products/95790-01264-86/SKIN-CAVIAR-LUXE-SLEEP-MASK_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "12",
+    "collectionName": "skin caviar",
+    "name": "eye expert online exclusive",
+    "benefits": ["anti-wrinkles", "firming", "lifting"],
+    "title": "complete caviar-infused eye ritual",
+    "description": "",
+    "regularPrice": "785",
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dw7cae7425/images/products/95790-01409-37/SKIN-CAVIAR-EYE-EXPERT-ONLINE-EXCLUSIVE_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "13",
+    "collectionName": "skin caviar",
+    "name": "face and eye limited edition set",
+    "benefits": ["firming", "lifting", "nourishing"],
+    "title": "lifting and firming day and night ritual",
+    "description": "",
+    "regularPrice": "1065",
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dwbcd94cac/images/products/95790-01384-99/SKIN-CAVIAR-LUXURY-HOLIDAY-LIMITED-EDITION_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "14",
+    "collectionName": "skin caviar",
+    "name": "vanity tray limited edition",
+    "benefits": ["firming", "lifting", "nourishing"],
+    "title": "la prairie x sabine marcelis skincare luxe ritual",
+    "description": "",
+    "regularPrice": "1990",
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dw2c73dd04/images/products/95790-01395-15/SKIN-CAVIAR-VANITY-TRAY-LIMITED-EDITION_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "15",
+    "collectionName": "skin caviar",
+    "name": "night indulgence online exclusive",
+    "benefits": ["firming", "nourishing", "soothing"],
+    "title": "lifting and firming night ritual",
+    "description": "",
+    "regularPrice": "625",
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dw0929a3f5/images/products/95790-01409-36/SKIN-CAVIAR-NIGHT-INDULGENCE-ONLINE-EXCLUSIVE_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "16",
+    "collectionName": "skin caviar",
+    "name": "resculpting limited edition set",
+    "benefits": ["anti-wrinkles", "lifting", "nourishing"],
+    "title": "lifting and firming day ritual",
+    "description": "",
+    "regularPrice": "1490",
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dwa12c9e93/images/products/95790-01385-97/SKIN-CAVIAR-EXCLUSIVE-LUXURY-HOLIDAY-RITUAL_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "17",
+    "collectionName": "skin caviar",
+    "name": "eye care limited edition set",
+    "benefits": ["firming", "lifting", "soothing"],
+    "title": "eye lifting and firming day ritual",
+    "description": "",
+    "regularPrice": "665",
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dwd9a64d30/images/products/95790-01385-96/SKIN-CAVIAR-LUXURY-HOLIDAY-LIMITED-EDITION-FOR-THE-EYE_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "18",
+    "collectionName": "platinum rare",
+    "name": "haute-rejuvenation mask",
+    "benefits": ["anti-wrinkles", "rejuvenating", "smoothing"],
+    "title": "rejuvenating two-step night treatment",
+    "description": "",
+    "regularPrice": "1740",
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dwa1d91713/images/products/95790-01376-86/PLATINUM-RARE-HAUTE-REJUVENATION-MASK_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "19",
+    "collectionName": "platinum rare",
+    "name": "cellular life-lotion",
+    "benefits": ["refining", "rejuvenating", "smoothing"],
+    "title": "rejuvenating and detoxifying treatment lotion",
+    "description": "",
+    "regularPrice": "765",
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dw7980f286/images/products/95790-01294-07/PLATINUM-RARE-CELLULAR-LIFE-LOTION_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "20",
+    "collectionName": "platinum rare",
+    "name": "haute-rejuvenation eye elixir",
+    "benefits": ["lifting", "rejuvenating"],
+    "title": "rejuvenating eye concentrate",
+    "description": "",
+    "regularPrice": "1090",
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dwdd59ca58/images/products/95790-01318-61/95790-01318-61_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "21",
+    "collectionName": "platinum rare",
+    "name": "haute-rejuvenation eye cream",
+    "benefits": ["firming", "rejuvenating", "smoothing"],
+    "title": "rejuvenating eye treatment",
+    "description": "",
+    "regularPrice": "1090",
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dw681fd0d5/images/products/95790-01318-53/PLATINUM-RARE-HAUTE-REJUVENATION-EYE-CREAM_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "22",
+    "collectionName": "platinum rare",
+    "name": "haute-rejuvenation protocol",
+    "benefits": ["firming", "rejuvenating", "volume-enhancing"],
+    "title": "intensive rejuvenating face treatment",
+    "description": "",
+    "regularPrice": "2180",
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dw2f660020/images/products/95790-01361-32/PLATINUM-RARE-HAUTE-REJUVENATION-PROTOCOL_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "23",
+    "collectionName": "platinum rare",
+    "name": "haute-rejuvenation elixir",
+    "benefits": ["firming", "lifting", "rejuvenating"],
+    "title": "rejuvenating concentrate",
+    "description": "",
+    "regularPrice": "1460",
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dw9f597275/images/products/95790-01318-45/PLATINUM-RARE-HAUTE-REJUVENATION-ELIXIR_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "24",
+    "collectionName": "platinum rare",
+    "name": "cellular night elixir",
+    "benefits": ["firming", "rejuvenating", "smoothing"],
+    "title": "rejuvenating night concentrate",
+    "description": "",
+    "regularPrice": "1460",
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dw1c972679/images/products/95790-01265-84/PLATINUM-RARE-CELLULAR-NIGHT-ELIXIR_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "25",
+    "collectionName": "platinum rare",
+    "name": "haute-rejuvenation cream",
+    "benefits": ["firming", "rejuvenating", "smoothing"],
+    "title": "rejuvenating cream",
+    "description": "",
+    "regularPrice": "1690",
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dw301c6986/images/products/95790-01318-28/PLATINUM-RARE-HAUTE-REJUVENATION-CREAM_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "26",
+    "collectionName": "platinum rare",
+    "name": "haute-rejuvenation cream",
+    "benefits": ["firming", "rejuvenating", "smoothing"],
+    "title": "rejuvenating cream",
+    "description": "",
+    "regularPrice": "1090",
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dw9767900b/images/products/95790-01318-36/PLATINUM-RARE-HAUTE-REJUVENATION-CREAM_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "27",
+    "collectionName": "platinum rare",
+    "name": "haute-rejuvenation mask replenishment",
+    "benefits": ["anti-wrinkles", "rejuvenating", "smoothing"],
+    "title": "rejuvenating night treatment refill",
+    "description": "",
+    "regularPrice": "1570",
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dwc4192a3b/images/products/95790-01376-87/PLATINUM-RARE-HAUTE-REJUVENATION-MASK-REPLENISHMENT_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "28",
+    "collectionName": "platinum rare",
+    "name": "eye care limited edition set",
+    "benefits": ["lifting", "rejuvenating", "smoothing"],
+    "title": "ultimate rejuvenation eye ritual",
+    "description": "",
+    "regularPrice": "2180",
+    "offer": false,
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dwffa45480/images/products/95790-01380-84/PLATINUM-RARE-LUXURY-HOLIDAY-LIMITED-EDITION-FOR-THE-EYE_SL_c.png"
+    ],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "",
+    "collectionName": "pure gold",
+    "name": "radiance nocturnal balm",
+    "benefits": ["nourishing", "rejuvenating", "revitalising"],
+    "title": "revitalising night cream",
+    "description": "",
+    "regularPrice": "1025",
+    "offer": false,
+    "imgUrls": [""],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "",
+    "collectionName": "pure gold",
+    "name": "radiance nocturnal balm replenishment",
+    "benefits": ["nourishing", "rejuvenating", "revitalising"],
+    "title": "revitalising night balm refill",
+    "description": "",
+    "regularPrice": "925",
+    "offer": false,
+    "imgUrls": [""],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "",
+    "collectionName": "pure gold",
+    "name": "radiance concentrate",
+    "benefits": ["nourishing", "refining", "revitalising"],
+    "title": "revitalising serum",
+    "description": "",
+    "regularPrice": "935",
+    "offer": false,
+    "imgUrls": [""],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "",
+    "collectionName": "pure gold",
+    "name": "radiance concentrate replenishment",
+    "benefits": ["nourishing", "refining", "revitalising"],
+    "title": "revitalising serum refill",
+    "description": "",
+    "regularPrice": "840",
+    "offer": false,
+    "imgUrls": [""],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "",
+    "collectionName": "pure gold",
+    "name": "radiance eye cream",
+    "benefits": ["anti-puffiness", "nourishing", "revitalising"],
+    "title": "revitalising eye cream",
+    "description": "",
+    "regularPrice": "700",
+    "offer": false,
+    "imgUrls": [""],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "",
+    "collectionName": "pure gold",
+    "name": "radiance cream",
+    "benefits": ["nourishing", "revitalising", "smoothing"],
+    "title": "revitalising moisturising cream",
+    "description": "",
+    "regularPrice": "935",
+    "offer": false,
+    "imgUrls": [""],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "",
+    "collectionName": "pure gold",
+    "name": "radiance cream replenishment",
+    "benefits": ["nourishing", "revitalising"],
+    "title": "revitalising moisturising cream refill",
+    "description": "",
+    "regularPrice": "840",
+    "offer": false,
+    "imgUrls": [""],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "",
+    "collectionName": "pure gold",
+    "name": "radiance eye cream replenishment",
+    "benefits": ["anti-puffiness", "nourishing", "revitalising"],
+    "title": "revitalising eye cream refill",
+    "description": "",
+    "regularPrice": "630",
+    "offer": false,
+    "imgUrls": [""],
+    "timestamp": "2024-04-24T21:07:22Z"
+  },
+  {
+    "id": "",
+    "collectionName": "pure gold",
+    "name": "luxury ritual",
+    "benefits": ["nourishing", "revitalising", "smoothing"],
+    "title": "the revitalising, replenishing and enriching coffret",
+    "description": "",
+    "regularPrice": "2570",
+    "offer": false,
+    "imgUrls": [""],
+    "timestamp": "2024-04-24T21:07:22Z"
+  }
+]
