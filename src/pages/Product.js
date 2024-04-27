@@ -79,13 +79,7 @@ const Product = () => {
           ) : (
             <p>$ {regularPrice}</p>
           )}
-          <div className="benefits">
-            <ul>
-              {benefits.map((benefit, index) => (
-                <li key={index}>{benefit}</li>
-              ))}
-            </ul>
-          </div>
+          <div className="benefits"></div>
         </div>
         <Link onClick={() => navigate(-1)}>
           Go Back to {collectionName} Collection

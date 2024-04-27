@@ -600,10 +600,22 @@ footer {
           }
         }
 
-        .product-name,
-        .product-description {
+        .product-name {
           height: 3rem;
           overflow: hidden;
+          text-transform: capitalize;
+        }
+
+        .benefits-wrapper {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+        }
+
+        .product-benefits {
+          padding: 0.25rem;
+          font-size: 0.75rem;
+          text-transform: uppercase;
         }
 
         .product-name {
