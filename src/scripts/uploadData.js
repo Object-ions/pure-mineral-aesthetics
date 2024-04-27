@@ -24,7 +24,7 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 // Read the JSON file - ensure you have the correct path to your JSON file
-const jsonFilePath = '../src/data/treatmentsData.json'; // Update the path as necessary
+const jsonFilePath = './src/data/product_scraper.json';
 const jsonData = JSON.parse(fs.readFileSync(jsonFilePath, 'utf8'));
 
 // Helper function to upload data to Firestore
