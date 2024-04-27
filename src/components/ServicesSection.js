@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 import { ReactComponent as ArrowIcon } from '../assets/svg/arrow_forward.svg';
 
-import ruby from '../assets/website-images/gems/ruby.png';
-import jade from '../assets/website-images/gems/jade.png';
-import quarts from '../assets/website-images/gems/quarts.png';
-import amethyst from '../assets/website-images/gems/amethyst.png';
+// import ruby from '../assets/website-images/gems/ruby.png';
+// import jade from '../assets/website-images/gems/jade.png';
+// import quarts from '../assets/website-images/gems/quarts.png';
+// import amethyst from '../assets/website-images/gems/amethyst.png';
 
 const ServicesSection = () => {
   return (
@@ -12,9 +12,9 @@ const ServicesSection = () => {
       <div className="services-container">
         <h3>Our Services</h3>
         <div className="service-card">
-          <div className="image-wrapper">
+          {/* <div className="image-wrapper">
             <img src={quarts} alt="quarts" />
-          </div>
+          </div> */}
           <h4>Quartz Hydration Facial</h4>
           <p>
             Immerse yourself in a hydrating bliss with our quartz-infused
@@ -22,9 +22,9 @@ const ServicesSection = () => {
           </p>
         </div>
         <div className="service-card">
-          <div className="image-wrapper">
+          {/* <div className="image-wrapper">
             <img src={amethyst} alt="amethyst" />
-          </div>
+          </div> */}
           <h4>Amethyst Calming Treatment</h4>
           <p>
             Soothe and calm your skin with the purifying properties of amethyst,
@@ -32,9 +32,9 @@ const ServicesSection = () => {
           </p>
         </div>
         <div className="service-card">
-          <div className="image-wrapper">
+          {/* <div className="image-wrapper">
             <img src={ruby} alt="ruby" />
-          </div>
+          </div> */}
           <h4>Ruby Revitalizing Boost</h4>
           <p>
             Experience the energizing effect of ruby crystals that aim to
@@ -42,9 +42,9 @@ const ServicesSection = () => {
           </p>
         </div>
         <div className="service-card">
-          <div className="image-wrapper">
+          {/* <div className="image-wrapper">
             <img src={jade} alt="jade" />
-          </div>
+          </div> */}
           <h4>Jade Contouring Magic</h4>
           <p>
             Define and contour with the healing touch of jade, known for its
