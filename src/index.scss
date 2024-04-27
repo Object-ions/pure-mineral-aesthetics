@@ -38,6 +38,8 @@ footer {
 
 .offer {
   position: absolute;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0.25rem;
   top: 0;
   left: 0;
   font-style: italic;
@@ -572,6 +574,7 @@ footer {
 .collection {
   .collection-container {
     @include container-setup;
+    @include underline-a;
     p,
     a {
       color: $blackColor;

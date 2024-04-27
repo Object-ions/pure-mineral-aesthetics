@@ -1,4 +1,3 @@
-import React from 'react';
 import { ReactComponent as StarFull } from '../assets/svg/star-full.svg';
 
 const Testimonials = () => {
