@@ -2,7 +2,8 @@ import { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
 import TopCTA from './TopCTA';
-import hamburger from '../../assets/svg/hamburger-icon.png';
+import hamburger from '../../assets/svg/hamburger.svg';
+import close from '../../assets/svg/close.svg';
 
 const Navbar = () => {
   const [user, setUser] = useState(null);
@@ -30,7 +31,7 @@ const Navbar = () => {
             </NavLink>
           </div>
           <button className="menu-toggle" onClick={toggleMenu}>
-            <img src={hamburger} alt="Menu" />
+            <img src={!isOpen ? hamburger : close} alt="Menu" />
           </button>
           <nav className={`navbar-links ${isOpen ? 'open' : ''}`}>
             <NavLink to="/collections" activeClassName="active">
