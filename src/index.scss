@@ -579,20 +579,29 @@ footer {
       flex-grow: 1;
       align-self: stretch;
       min-height: 350px;
+      max-width: 1200px;
+      margin: 0 auto;
 
       &:nth-child(odd) {
-        background: $secondaryColor;
         flex-direction: row;
       }
 
       &:nth-child(even) {
-        background: $blackColor;
         flex-direction: row-reverse;
         text-align: right;
       }
 
+      .treatment-image {
+        height: 100%;
+        width: 50%;
+        background-position: bottom right !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+      }
+
       .treatment-content {
         width: 50%;
+        padding: 1.5rem;
 
         .btn {
           background: none;
@@ -636,6 +645,8 @@ footer {
       flex-grow: 1;
       align-self: stretch;
       min-height: 350px;
+      max-width: 1200px;
+      margin: 0 auto;
     }
   }
 
