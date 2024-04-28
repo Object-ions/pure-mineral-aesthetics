@@ -78,6 +78,12 @@ footer {
   gap: 5px;
   text-decoration: none;
   color: inherit;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
 }
 
 .svg-icon {
@@ -348,15 +354,23 @@ footer {
   }
 }
 
+// *** Map Container *** //
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
 // *** Contact Form *** //
 .contact-form {
-  background: $mainColor;
+  margin-bottom: 3rem;
 
   .contact-container {
     @include container-setup;
     padding-top: 3rem;
     background: $accentColor;
-    color: $secondaryColor;
+    margin: 0 auto !important;
 
     p {
       margin: 5rem;
@@ -393,6 +407,7 @@ footer {
           align-self: flex-end;
           color: $blackColor;
           border: 1px solid $blackColor;
+          cursor: pointer;
         }
       }
 
@@ -581,6 +596,11 @@ footer {
       min-height: 350px;
       max-width: 1200px;
       margin: 0 auto;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.02);
+      }
 
       &:nth-child(odd) {
         flex-direction: row;
@@ -597,6 +617,7 @@ footer {
         background-position: bottom right !important;
         background-size: cover !important;
         background-repeat: no-repeat !important;
+        border-radius: 5px;
       }
 
       .treatment-content {
@@ -644,9 +665,14 @@ footer {
       justify-content: space-between;
       flex-grow: 1;
       align-self: stretch;
-      min-height: 350px;
+      min-height: 400px;
       max-width: 1200px;
       margin: 0 auto;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.02);
+      }
     }
   }
 
@@ -681,7 +707,7 @@ footer {
 .collection {
   .collection-container {
     @include container-setup;
-    @include underline-a;
+    // @include underline-a;
     p,
     a {
       color: $blackColor;
@@ -695,6 +721,11 @@ footer {
         text-align: center;
         padding: 2rem;
         position: relative;
+
+        &:hover {
+          transition: transform 0.3s ease;
+          transform: scale(1.05);
+        }
 
         .image-wrapper {
           height: 15rem;
