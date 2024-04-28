@@ -4,7 +4,7 @@
     "gem": "Amber",
     "name": "Amber Glow",
     "description": [
-      "Prized for its ability to dissolve negative energy, amber balances emotions and attracts good luck while helping even out skin tone and erasing fine lines."
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum incidunt, labore ea explicabo adipisci, quisquam error aut laudantium iste quos voluptate alias earum tempore qui! Rerum cumque tempora quae expedita doloribus nihil odit, quia similique unde delectus, distinctio natus non magnam, temporibus provident soluta in porro culpa minus! Enim, doloremqum"
     ],
     "price": 290
   },
@@ -13,7 +13,7 @@
     "gem": "Amethyst",
     "name": "Amethyst Purify",
     "description": [
-      "Known as the “soul stone,” amethyst purifies negative energy, cleanses and promotes oxygen flow to the skin."
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptatibus laborum, similique nemo iste, sapiente, vitae praesentium totam officiis maxime exercitationem rem atque voluptas vero ab velit. Sunt, sed ipsum nam non corrupti voluptates sequi facere illo blanditiis placeat consequuntur."
     ],
     "price": 150
   },
@@ -22,7 +22,7 @@
     "gem": "Aquamarine",
     "name": "Aquamarine Refresh",
     "description": [
-      "Associated with courage, strength, and confidence, aquamarine soothes, moisturizes, and refreshes skin."
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, sint praesentium! Dolorum ratione ab mollitia expedita at non, earum voluptate natus, obcaecati a aspernatur nostrum? Fugiat soluta dolorum sint iure iusto dicta veniam, ad ea illum quis praesentium voluptate, architecto minus placeat eaque dolores veritatis."
     ],
     "price": 175
   },
@@ -31,7 +31,7 @@
     "gem": "Aventurine",
     "name": "Aventurine Opportunity",
     "description": [
-      "The “stone of opportunity” helps sweep away bad habits, encourages new patterns of prosperity, soothes sensitive skin, and handles acne and blemishes."
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id voluptate dignissimos unde obcaecati eligendi provident qui laudantium iure quae reiciendis laborum est, voluptatibus repellendus facilis!"
     ],
     "price": 120
   },
@@ -40,7 +40,7 @@
     "gem": "Diamond",
     "name": "Diamond Brilliance",
     "description": [
-      "The “king of gems” stimulates creativity and promotes strength while nourishing and exfoliating skin, along with preventing collagen degradation."
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum incidunt, labore ea explicabo adipisci, quisquam error aut laudantium iste quos voluptate alias earum tempore qui! Rerum cumque tempora quae expedita doloribus nihil odit, quia similique unde delectus, distinctio natus non magnam, temporibus provident soluta in porro culpa minus! Enim, doloremque"
     ],
     "price": 300
   },
@@ -49,7 +49,7 @@
     "gem": "24K Gold",
     "name": "Gold Radiance",
     "description": [
-      "Symbolizing flexibility on one’s spiritual path and associated with vitality, gold delivers much-needed antioxidants to the skin and reduces wrinkles."
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis error cupiditate enim reprehenderit nihil labore culpa quibusdam quis, deleniti corrupti consectetur veniam accusantium laboriosam! Accusantium architecto alias error. Recusandae voluptatum sapiente quibusdam dicta repudiandae, obcaecati dolores nisi officiis numquam quam aliquam explicabo enim eius esse similique laborum consequuntur corrupti quo cumque. Provident impedit eum possimus dolorem pariatur minima, sapiente totam!"
     ],
     "price": 200
   },
@@ -58,44 +58,8 @@
     "gem": "Pearl",
     "name": "Pearl Luster",
     "description": [
-      "Viewed as a vehicle for channeling wisdom and long a symbol of purity, pearl controls oily skin and fights free radicals to produce anti-aging benefits."
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, sint praesentium! Dolorum ratione ab mollitia expedita at non, earum voluptate natus, obcaecati a aspernatur nostrum? Fugiat soluta dolorum sint iure iusto dicta veniam, ad ea illum quis praesentium voluptate, architecto minus placeat eaque dolores veritatis."
     ],
     "price": 150
-  },
-  {
-    "id": 8,
-    "gem": "Rock Crystal",
-    "name": "Crystal Clarity",
-    "description": [
-      "Amplifying whichever energy it receives, rock crystal symbolizes purity and helps skin by cleansing, moisturizing, and promoting overall skin health."
-    ],
-    "price": 130
-  },
-  {
-    "id": 9,
-    "gem": "Rose Quartz",
-    "name": "Rose Quartz Love",
-    "description": [
-      "Known as a “love stone” because of its ability to strengthen various types of love, rose quartz also helps diminish wrinkles, even out skin tone, and help skin glow."
-    ],
-    "price": 210
-  },
-  {
-    "id": 10,
-    "gem": "Ruby",
-    "name": "Ruby Passion",
-    "description": [
-      "This talisman of passion, protection, and prosperity was associated with wisdom and helps nourish skin while promoting a youthful glow."
-    ],
-    "price": 150
-  },
-  {
-    "id": 11,
-    "gem": "Sapphire",
-    "name": "Sapphire Wisdom",
-    "description": [
-      "Believed to be connected to the heavens and to open the doors to spiritual insights, sapphire energizes skin for anti-aging, soothes inflamed skin, and combats wrinkles."
-    ],
-    "price": 220
   }
 ]
