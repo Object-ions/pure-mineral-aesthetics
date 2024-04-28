@@ -5,13 +5,12 @@ import { ReactComponent as InstagramIcon } from '../../assets/svg/instagram.svg'
 import { ReactComponent as TwitterIcon } from '../../assets/svg/x-twitter.svg';
 
 const Footer = () => {
-  const logo = '/images/mineral-logo-white.png';
-  const logotype = '/images/mineral-logotype-white.png';
   return (
     <footer>
       <div className="footer">
+        <h2>Pure Mineral Aesthetics</h2>
         <div className="visit-us">
-          <h3>Visit Us</h3>
+          <h3>Location</h3>
           <p>
             4023 18th St, Ste B,
             <br />
@@ -19,6 +18,8 @@ const Footer = () => {
           </p>
           <p>415-874-9852</p>
           <>
+            <h3>Socials</h3>
+            <br />
             <Link to={'/'}>
               <InstagramIcon className="svg-icon" />
             </Link>
@@ -30,22 +31,31 @@ const Footer = () => {
             </Link>
           </>
         </div>
-        <div className="footer-logos">
-          <Link to={'/'}>
-            <img className="logo" src={logo} alt="logo" />
-          </Link>
-          <Link to={'/'}>
-            <img className="logotype" src={logotype} alt="logo" />
-          </Link>
+        <div className="footer-policies">
+          <h3>Policies</h3>
+          <Link to={'/'}>FQA</Link>
+          <Link to={'/'}>Terms & Conditions</Link>
+          <Link to={'/'}>Privacy Policy</Link>
+          <Link to={'/'}>Shipping Policy</Link>
+          <Link to={'/'}>Refund Policy</Link>
+          <Link to={'/'}>Cookie Policy</Link>
+          <Link to={'/'}>Accessibility Statement</Link>
         </div>
         <div className="navigation">
-          <h4>Map website:</h4>
-          <Link to={'/treatments'}>Treatments</Link>
-          <Link to={'/product'}>Product</Link>
-          <Link to={'/about'}>About</Link>
-          <Link to={'/contact-us'}>Contact</Link>
+          <h3>Menu</h3>
           <Link to={'/sign-up'}>Sign Up</Link>
           <Link to={'/profile'}>Profile</Link>
+          <Link to={'/treatments'}>Treatments</Link>
+          <Link to={'/collection'}>Collection</Link>
+          <Link to={'/about'}>About</Link>
+          <Link to={'/contact-us'}>Contact</Link>
+        </div>
+        <div className="news-letter">
+          <h3>Join Our News Letter!</h3>
+          <label>Email Address:</label>
+          <input type="email" />
+          <button className="btn">Subscribe</button>
+          <p>* By clicking subscribe I agree to news letter policy</p>
         </div>
       </div>
       <Copyrights />
