@@ -41,7 +41,6 @@ const Product = () => {
     offer,
     discountedPrice,
     regularPrice,
-    benefits,
   } = product || {};
 
   const copyLink = () => {
