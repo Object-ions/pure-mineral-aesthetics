@@ -210,3 +210,25 @@
     font-size: 0.7rem;
   }
 }
+
+// *** About *** //
+@media (max-width: 768px) {
+  .about-page {
+    .about-container {
+      display: block;
+
+      .about-image {
+        height: 25rem;
+        width: 100%;
+        background-position: top right !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+      }
+    }
+
+    .about-text {
+      margin: 0 auto 5rem auto;
+      width: 80%;
+    }
+  }
+}
