@@ -64,6 +64,10 @@ footer {
   }
 }
 
+.align-right {
+  text-align: right;
+}
+
 .btn {
   background-color: $accentColor;
   padding: 0.7rem;
@@ -74,6 +78,12 @@ footer {
   gap: 5px;
   text-decoration: none;
   color: inherit;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
 }
 
 .svg-icon {
@@ -259,32 +269,31 @@ footer {
       font-size: 4rem;
       font-family: $fontTitle;
       font-weight: 600;
-      font-style: italic;
       margin: 3rem 0 0 0;
-      color: #000;
+      color: $blackColor;
     }
 
     > :last-child {
       grid-column: 1 / -1;
       background: $secondaryColor;
-      color: #000;
-      border: 1px solid #000;
+      color: $blackColor;
+      border: 1px solid $blackColor;
     }
 
     .service-card {
       background: #f0f0f0;
-      color: #000;
+      color: $blackColor;
       height: 25rem;
       padding: 1rem;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-evenly;
-      border: 1px solid #000;
+      border: 1px solid $blackColor;
 
       h4 {
         font-size: 1.5rem;
-        color: #000;
+        color: $blackColor;
         margin: 0;
       }
 
@@ -345,14 +354,23 @@ footer {
   }
 }
 
+// *** Map Container *** //
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
 // *** Contact Form *** //
 .contact-form {
-  background: $mainColor;
+  margin-bottom: 3rem;
 
   .contact-container {
     @include container-setup;
-    background: $mainColor;
-    color: $secondaryColor;
+    padding-top: 3rem;
+    background: $accentColor;
+    margin: 0 auto !important;
 
     p {
       margin: 5rem;
@@ -362,6 +380,11 @@ footer {
     .form-wrapper {
       max-width: 600px;
       margin: 0 auto;
+
+      h2,
+      p {
+        color: $brownColor;
+      }
 
       form {
         display: flex;
@@ -384,6 +407,7 @@ footer {
           align-self: flex-end;
           color: $blackColor;
           border: 1px solid $blackColor;
+          cursor: pointer;
         }
       }
 
@@ -395,6 +419,7 @@ footer {
 
     .contact-us {
       margin: 3rem 0;
+
       p {
         margin: 0.25rem;
         font-size: 1.25rem;
@@ -462,12 +487,20 @@ footer {
 .footer {
   @include container-setup;
   color: $whiteColor;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+  justify-items: stretch;
+  font-size: 0.85rem;
+
+  h2 {
+    grid-column: 1 / -1;
+  }
 
   a {
     color: $whiteColor;
+    text-align: left;
   }
 
   h3 {
@@ -489,46 +522,67 @@ footer {
     justify-content: space-around;
   }
 
-  .footer-logos {
+  .footer-policies {
     display: flex;
     flex-direction: column;
-    align-items: center;
+  }
+
+  .news-letter {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    input {
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      font-size: 0.9rem;
+
+      &:focus {
+        border-color: #a2a2a2;
+        outline: none;
+      }
+    }
+
+    .btn {
+      width: 10rem;
+      align-self: flex-end;
+      color: $blackColor;
+      border: 1px solid $blackColor;
+    }
   }
 }
 
 .copyrights {
   text-align: center;
-  background: $accentColor;
+  background: $blackColor;
   padding: 0.5rem;
-  color: $blackColor;
+  color: $whiteColor;
 
   a {
-    color: $blackColor;
+    color: $whiteColor;
   }
 }
 
-// *** Treatments & Collections *** //
-.treatments,
-.collections {
+// *** Treatments *** //
+.treatments {
   @include container-setup;
 
   h2 {
     font-family: $fontTitle;
     text-align: center;
     font-size: 4rem;
-    color: $accentColor;
+    color: $blackColor;
+    margin: 1rem;
   }
 
-  .treatments-container,
-  .collections-container {
+  .treatments-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     gap: 2rem;
     justify-content: center;
     align-items: start;
 
-    .treatments-card,
-    .collections-card {
+    .treatments-card {
       padding: 2rem;
       border: 1px solid #ccc;
       border-radius: 8px;
@@ -540,6 +594,85 @@ footer {
       flex-grow: 1;
       align-self: stretch;
       min-height: 350px;
+      max-width: 1200px;
+      margin: 0 auto;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.02);
+      }
+
+      &:nth-child(odd) {
+        flex-direction: row;
+      }
+
+      &:nth-child(even) {
+        flex-direction: row-reverse;
+        text-align: right;
+      }
+
+      .treatment-image {
+        height: 100%;
+        width: 50%;
+        background-position: bottom right !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        border-radius: 5px;
+      }
+
+      .treatment-content {
+        width: 50%;
+        padding: 1.5rem;
+
+        .btn {
+          background: none;
+          width: 15rem;
+          border: 1px solid $blackColor;
+        }
+      }
+    }
+  }
+}
+
+// *** Collections *** //
+
+.collections {
+  @include container-setup;
+
+  h2 {
+    font-family: $fontTitle;
+    text-align: center;
+    font-size: 4rem;
+    color: $blackColor;
+    margin: 1rem;
+  }
+
+  .collections-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-content: center;
+    align-items: start;
+
+    .collections-card {
+      padding: 2rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: $whiteColor;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-grow: 1;
+      align-self: stretch;
+      min-height: 400px;
+      max-width: 1200px;
+      margin: 0 auto;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.02);
+      }
     }
   }
 
@@ -574,7 +707,7 @@ footer {
 .collection {
   .collection-container {
     @include container-setup;
-    @include underline-a;
+    // @include underline-a;
     p,
     a {
       color: $blackColor;
@@ -589,6 +722,11 @@ footer {
         padding: 2rem;
         position: relative;
 
+        &:hover {
+          transition: transform 0.3s ease;
+          transform: scale(1.05);
+        }
+
         .image-wrapper {
           height: 15rem;
 
@@ -600,10 +738,22 @@ footer {
           }
         }
 
-        .product-name,
-        .product-description {
+        .product-name {
           height: 3rem;
           overflow: hidden;
+          text-transform: capitalize;
+        }
+
+        .benefits-wrapper {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+        }
+
+        .product-benefits {
+          padding: 0.25rem;
+          font-size: 0.75rem;
+          text-transform: uppercase;
         }
 
         .product-name {
@@ -727,46 +877,65 @@ footer {
 // *** About *** //
 
 .about-page {
+  @include container-setup;
   padding: 20px;
-  max-width: 800px;
   margin: 0 auto;
   font-family: 'Montserrat', sans-serif;
 
-  h1 {
-    color: $accentColor;
-    text-align: center;
-    font-size: 2.5rem;
-    font-family: $fontTitle;
-    font-size: 4rem;
-  }
+  .about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 60vh;
+    max-height: auto;
+    background: $accentColor;
 
-  p {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    color: $blackColor;
-  }
+    .about-title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 
-  .image-wrapper {
-    max-width: 100%;
+      h2 {
+        font-family: $fontTitle;
+        color: $brownColor;
+        text-align: center;
+        font-size: 4rem;
+        padding: 3rem;
+        padding-bottom: 0;
+        margin: 0;
+      }
 
-    img {
-      width: 100%;
+      p {
+        text-align: center;
+        font-size: 1rem;
+        padding: 1rem 4rem 1rem 4rem;
+      }
+    }
+
+    .about-image {
+      background-position: top right !important;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
     }
   }
 
-  .contact-info {
-    margin-top: 40px;
-
-    h2 {
-      font-size: 2rem;
-      color: $mainColor;
-      margin: 1rem 0;
-    }
+  .about-text {
+    position: relative;
+    width: 35%;
+    margin: 4rem auto;
 
     p {
-      font-size: 1.1rem;
-      font-weight: bold;
-      margin: 0;
+      line-height: 1.6;
+      color: $blackColor;
+      text-align: center;
+    }
+
+    .btn {
+      position: absolute;
+      right: -0.5rem;
+      background: none;
+      border: 1px solid $blackColor;
+      width: 16rem;
     }
   }
 }

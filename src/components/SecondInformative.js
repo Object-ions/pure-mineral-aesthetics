@@ -13,7 +13,7 @@ const SecondInformative = () => {
             nature's best ingredients, ensuring you always put your purest face
             forward.
           </p>
-          <Link to={'/'} className="btn">
+          <Link to={'/collections'} className="btn">
             Check Out Our Skincare Collection
           </Link>
         </div>

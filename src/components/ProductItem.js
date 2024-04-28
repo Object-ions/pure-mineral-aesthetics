@@ -5,7 +5,7 @@ const ProductItem = ({ product, id }) => {
     collectionName,
     imgUrls,
     name,
-    description,
+    benefits,
     offer,
     discountedPrice,
     regularPrice,
@@ -26,7 +26,13 @@ const ProductItem = ({ product, id }) => {
         </div>
         <p className="product-name">{name}</p>
         <hr />
-        <p className="product-description">{description}</p>
+        <ul className="benefits-wrapper">
+          {benefits.map((benefit, index) => (
+            <li key={index} className="product-benefits">
+              {benefit}
+            </li>
+          ))}
+        </ul>
         {offer && <p className="offer">Special Offer!</p>}
         <p>$ {formattedPrice}</p>
       </Link>

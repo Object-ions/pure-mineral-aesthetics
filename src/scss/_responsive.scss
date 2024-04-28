@@ -32,7 +32,7 @@
   }
 
   .navbar-profile {
-    top: 216px;
+    top: 192px;
   }
 }
 // *** CTA *** //
@@ -148,11 +148,87 @@
   }
 }
 
+//  *** Treatments *** //
+
 @media (max-width: 768px) {
-  .treatments .treatments-container {
-    grid-template-columns: repeat(2, 1fr);
+  .treatments {
+    p,
+    a {
+      font-size: 0.9rem;
+    }
+
+    .treatments-container {
+      .treatments-card {
+        display: block;
+
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+
+        .treatment-image {
+          width: 20rem;
+          height: 20rem;
+        }
+        .treatment-content {
+          width: auto;
+        }
+      }
+    }
   }
-  .treatments h2 {
-    grid-column: 1 / -1;
+}
+
+// *** Collections *** //
+@media (max-width: 768px) {
+  .collections-container {
+    .collections-card {
+      .collections-text {
+        background: rgba($color: #fff, $alpha: 0.6);
+        border-radius: 5px;
+        padding: 1rem;
+      }
+      .collections-text.caviar {
+        background: rgba($color: #000, $alpha: 0.6);
+      }
+    }
+  }
+}
+
+// *** Collection *** //
+@media (max-width: 768px) {
+  .collection {
+    .collection-container {
+      .collection-card {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+}
+
+// *** Footer, Copyrights *** //
+@media (max-width: 768px) {
+  .footer,
+  .copyrights {
+    font-size: 0.7rem;
+  }
+}
+
+// *** About *** //
+@media (max-width: 768px) {
+  .about-page {
+    .about-container {
+      display: block;
+
+      .about-image {
+        height: 25rem;
+        width: 100%;
+        background-position: top right !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+      }
+    }
+
+    .about-text {
+      margin: 0 auto 5rem auto;
+      width: 80%;
+    }
   }
 }

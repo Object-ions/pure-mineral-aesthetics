@@ -1,11 +1,10 @@
 [
   {
-    "id": "1",
-    "collectionName": "skin caviar",
+    "collectionName": "caviar",
     "name": "eye lift",
     "benefits": ["anti-wrinkles", "firming", "lifting"],
     "title": "lifting and firming eye serum",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "570",
     "offer": false,
     "imgUrls": [
@@ -14,12 +13,11 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "2",
-    "collectionName": "skin caviar",
+    "collectionName": "caviar",
     "name": "essence-in-lotion",
     "benefits": ["firming", "hydrating"],
     "title": "pre-serum treatment",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "320",
     "offer": false,
     "imgUrls": [
@@ -28,12 +26,11 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "3",
-    "collectionName": "skin caviar",
+    "collectionName": "caviar",
     "name": "eye complex",
     "benefits": ["firming", "hydrating", "soothing"],
     "title": "firming eye gel",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": null,
     "offer": false,
     "imgUrls": [
@@ -42,12 +39,11 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "4",
-    "collectionName": "skin caviar",
+    "collectionName": "caviar",
     "name": "luxe eye cream",
     "benefits": ["firming", "lifting", "nourishing"],
     "title": "lifting and firming eye cream",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "435",
     "offer": false,
     "imgUrls": [
@@ -56,12 +52,11 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "5",
-    "collectionName": "skin caviar",
+    "collectionName": "caviar",
     "name": "harmony l'extrait",
     "benefits": ["anti-wrinkles", "lifting", "volume-enhancing"],
     "title": "intensive resculpting treatment",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "860",
     "offer": false,
     "imgUrls": [
@@ -70,12 +65,11 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "6",
-    "collectionName": "skin caviar",
+    "collectionName": "caviar",
     "name": "liquid lift",
     "benefits": ["firming", "lifting", "smoothing"],
     "title": "potent lifting serum",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "785",
     "offer": false,
     "imgUrls": [
@@ -84,12 +78,11 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "7",
-    "collectionName": "skin caviar",
+    "collectionName": "caviar",
     "name": "luxe cream",
     "benefits": ["firming", "lifting", "nourishing"],
     "title": "rich and velvety face cream",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "595",
     "offer": false,
     "imgUrls": [
@@ -98,12 +91,11 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "8",
-    "collectionName": "skin caviar",
+    "collectionName": "caviar",
     "name": "luxe cream sheer",
     "benefits": ["firming", "lifting", "nourishing"],
     "title": "light and airy face cream",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "595",
     "offer": false,
     "imgUrls": [
@@ -112,12 +104,11 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "9",
-    "collectionName": "skin caviar",
+    "collectionName": "caviar",
     "name": "absolute filler",
     "benefits": ["firming", "nourishing", "volume-enhancing"],
     "title": "volume-enhancing moisturising cream",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "725",
     "offer": false,
     "imgUrls": [
@@ -126,12 +117,11 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "10",
-    "collectionName": "skin caviar",
+    "collectionName": "caviar",
     "name": "nighttime oil",
     "benefits": ["anti-wrinkles", "firming", "nourishing"],
     "title": "line-smoothing anti-ageing night treatment",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "580",
     "offer": false,
     "imgUrls": [
@@ -140,12 +130,11 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "11",
-    "collectionName": "skin caviar",
+    "collectionName": "caviar",
     "name": "luxe sleep mask",
     "benefits": ["firming", "smoothing"],
     "title": "overnight lifting and firming cream mask",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "445",
     "offer": false,
     "imgUrls": [
@@ -154,12 +143,11 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "12",
-    "collectionName": "skin caviar",
+    "collectionName": "caviar",
     "name": "eye expert online exclusive",
     "benefits": ["anti-wrinkles", "firming", "lifting"],
     "title": "complete caviar-infused eye ritual",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "785",
     "offer": false,
     "imgUrls": [
@@ -168,12 +156,11 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "13",
-    "collectionName": "skin caviar",
+    "collectionName": "caviar",
     "name": "face and eye limited edition set",
     "benefits": ["firming", "lifting", "nourishing"],
     "title": "lifting and firming day and night ritual",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "1065",
     "offer": false,
     "imgUrls": [
@@ -182,12 +169,11 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "14",
-    "collectionName": "skin caviar",
+    "collectionName": "caviar",
     "name": "vanity tray limited edition",
     "benefits": ["firming", "lifting", "nourishing"],
     "title": "la prairie x sabine marcelis skincare luxe ritual",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "1990",
     "offer": false,
     "imgUrls": [
@@ -196,12 +182,11 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "15",
-    "collectionName": "skin caviar",
+    "collectionName": "caviar",
     "name": "night indulgence online exclusive",
     "benefits": ["firming", "nourishing", "soothing"],
     "title": "lifting and firming night ritual",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "625",
     "offer": false,
     "imgUrls": [
@@ -210,12 +195,11 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "16",
-    "collectionName": "skin caviar",
+    "collectionName": "caviar",
     "name": "resculpting limited edition set",
     "benefits": ["anti-wrinkles", "lifting", "nourishing"],
     "title": "lifting and firming day ritual",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "1490",
     "offer": false,
     "imgUrls": [
@@ -224,12 +208,11 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "17",
-    "collectionName": "skin caviar",
+    "collectionName": "caviar",
     "name": "eye care limited edition set",
     "benefits": ["firming", "lifting", "soothing"],
     "title": "eye lifting and firming day ritual",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "665",
     "offer": false,
     "imgUrls": [
@@ -238,12 +221,11 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "18",
-    "collectionName": "platinum rare",
+    "collectionName": "platinum-rare",
     "name": "haute-rejuvenation mask",
     "benefits": ["anti-wrinkles", "rejuvenating", "smoothing"],
     "title": "rejuvenating two-step night treatment",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "1740",
     "offer": false,
     "imgUrls": [
@@ -252,12 +234,11 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "19",
-    "collectionName": "platinum rare",
+    "collectionName": "platinum-rare",
     "name": "cellular life-lotion",
     "benefits": ["refining", "rejuvenating", "smoothing"],
     "title": "rejuvenating and detoxifying treatment lotion",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "765",
     "offer": false,
     "imgUrls": [
@@ -266,12 +247,11 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "20",
-    "collectionName": "platinum rare",
+    "collectionName": "platinum-rare",
     "name": "haute-rejuvenation eye elixir",
     "benefits": ["lifting", "rejuvenating"],
     "title": "rejuvenating eye concentrate",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "1090",
     "offer": false,
     "imgUrls": [
@@ -280,12 +260,11 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "21",
-    "collectionName": "platinum rare",
+    "collectionName": "platinum-rare",
     "name": "haute-rejuvenation eye cream",
     "benefits": ["firming", "rejuvenating", "smoothing"],
     "title": "rejuvenating eye treatment",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "1090",
     "offer": false,
     "imgUrls": [
@@ -294,12 +273,11 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "22",
-    "collectionName": "platinum rare",
+    "collectionName": "platinum-rare",
     "name": "haute-rejuvenation protocol",
     "benefits": ["firming", "rejuvenating", "volume-enhancing"],
     "title": "intensive rejuvenating face treatment",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "2180",
     "offer": false,
     "imgUrls": [
@@ -308,12 +286,11 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "23",
-    "collectionName": "platinum rare",
+    "collectionName": "platinum-rare",
     "name": "haute-rejuvenation elixir",
     "benefits": ["firming", "lifting", "rejuvenating"],
     "title": "rejuvenating concentrate",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "1460",
     "offer": false,
     "imgUrls": [
@@ -322,12 +299,11 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "24",
-    "collectionName": "platinum rare",
+    "collectionName": "platinum-rare",
     "name": "cellular night elixir",
     "benefits": ["firming", "rejuvenating", "smoothing"],
     "title": "rejuvenating night concentrate",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "1460",
     "offer": false,
     "imgUrls": [
@@ -336,12 +312,11 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "25",
-    "collectionName": "platinum rare",
+    "collectionName": "platinum-rare",
     "name": "haute-rejuvenation cream",
     "benefits": ["firming", "rejuvenating", "smoothing"],
     "title": "rejuvenating cream",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "1690",
     "offer": false,
     "imgUrls": [
@@ -350,12 +325,11 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "26",
-    "collectionName": "platinum rare",
+    "collectionName": "platinum-rare",
     "name": "haute-rejuvenation cream",
     "benefits": ["firming", "rejuvenating", "smoothing"],
     "title": "rejuvenating cream",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "1090",
     "offer": false,
     "imgUrls": [
@@ -364,12 +338,11 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "27",
-    "collectionName": "platinum rare",
+    "collectionName": "platinum-rare",
     "name": "haute-rejuvenation mask replenishment",
     "benefits": ["anti-wrinkles", "rejuvenating", "smoothing"],
     "title": "rejuvenating night treatment refill",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "1570",
     "offer": false,
     "imgUrls": [
@@ -378,12 +351,11 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "28",
-    "collectionName": "platinum rare",
+    "collectionName": "platinum-rare",
     "name": "eye care limited edition set",
     "benefits": ["lifting", "rejuvenating", "smoothing"],
     "title": "ultimate rejuvenation eye ritual",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "2180",
     "offer": false,
     "imgUrls": [
@@ -392,111 +364,120 @@
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "",
-    "collectionName": "pure gold",
+    "collectionName": "pure-gold",
     "name": "radiance nocturnal balm",
     "benefits": ["nourishing", "rejuvenating", "revitalising"],
     "title": "revitalising night cream",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "1025",
     "offer": false,
-    "imgUrls": [""],
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dwfa8c21dc/images/products/95790-01382-90/PURE-GOLD-RADIANCE-NOCTURNAL-BALM_SL_c.png"
+    ],
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "",
-    "collectionName": "pure gold",
+    "collectionName": "pure-gold",
     "name": "radiance nocturnal balm replenishment",
     "benefits": ["nourishing", "rejuvenating", "revitalising"],
     "title": "revitalising night balm refill",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "925",
     "offer": false,
-    "imgUrls": [""],
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dweca91b30/images/products/95790-01382-91/PURE-GOLD-RADIANCE-NOCTURNAL-BALM-REPLENISHMENT_SL_c.png"
+    ],
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "",
-    "collectionName": "pure gold",
+    "collectionName": "pure-gold",
     "name": "radiance concentrate",
     "benefits": ["nourishing", "refining", "revitalising"],
     "title": "revitalising serum",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "935",
     "offer": false,
-    "imgUrls": [""],
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dw62247d93/images/products/95790-01337-36/PURE-GOLD-RADIANCE-CONCENTRATE_SL_c.png"
+    ],
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "",
-    "collectionName": "pure gold",
+    "collectionName": "pure-gold",
     "name": "radiance concentrate replenishment",
     "benefits": ["nourishing", "refining", "revitalising"],
     "title": "revitalising serum refill",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "840",
     "offer": false,
-    "imgUrls": [""],
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dwf24ea73d/images/products/95790-01337-56/PURE-GOLD-RADIANCE-CONCENTRATE-REPLENISHMENT_SL_c.png"
+    ],
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "",
-    "collectionName": "pure gold",
+    "collectionName": "pure-gold",
     "name": "radiance eye cream",
     "benefits": ["anti-puffiness", "nourishing", "revitalising"],
     "title": "revitalising eye cream",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "700",
     "offer": false,
-    "imgUrls": [""],
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dwf55b9534/images/products/95790-01337-26/PURE-GOLD-RADIANCE-EYE-CREAM_SL_c.png"
+    ],
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "",
-    "collectionName": "pure gold",
+    "collectionName": "pure-gold",
     "name": "radiance cream",
     "benefits": ["nourishing", "revitalising", "smoothing"],
     "title": "revitalising moisturising cream",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "935",
     "offer": false,
-    "imgUrls": [""],
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dwec69f4a3/images/products/95790-01337-16/PURE-GOLD-RADIANCE-CREAM_SL_c.png"
+    ],
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "",
-    "collectionName": "pure gold",
+    "collectionName": "pure-gold",
     "name": "radiance cream replenishment",
     "benefits": ["nourishing", "revitalising"],
     "title": "revitalising moisturising cream refill",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "840",
     "offer": false,
-    "imgUrls": [""],
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dw7fbcffd0/images/products/95790-01337-52/PURE-GOLD-RADIANCE-CREAM-REPLENISHMENT_SL_c.png"
+    ],
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "",
-    "collectionName": "pure gold",
+    "collectionName": "pure-gold",
     "name": "radiance eye cream replenishment",
     "benefits": ["anti-puffiness", "nourishing", "revitalising"],
     "title": "revitalising eye cream refill",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "630",
     "offer": false,
-    "imgUrls": [""],
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dwd55c1c78/images/products/95790-01337-54/PURE-GOLD-RADIANCE-EYE-CREAM-REPLENISHMENT_SL_c.png"
+    ],
     "timestamp": "2024-04-24T21:07:22Z"
   },
   {
-    "id": "",
-    "collectionName": "pure gold",
+    "collectionName": "pure-gold",
     "name": "luxury ritual",
     "benefits": ["nourishing", "revitalising", "smoothing"],
     "title": "the revitalising, replenishing and enriching coffret",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem nulla repellendus magni, natus ducimus autem vel, quod corporis, neque architecto inventore sint omnis. Perspiciatis ea, libero laborum minus dolorum vel culpa quam quas eos.",
     "regularPrice": "2570",
     "offer": false,
-    "imgUrls": [""],
+    "imgUrls": [
+      "https://www.laprairie.com/dw/image/v2/AAOT_PRD/on/demandware.static/-/Sites-masterCatalog_LaPrairie/default/dwecd9774e/images/products/95790-01380-63/PURE-GOLD-LUXURY-RITUAL_SL_c.png"
+    ],
     "timestamp": "2024-04-24T21:07:22Z"
   }
 ]
