@@ -1,10 +1,9 @@
 import { Link } from 'react-router-dom';
 import { ReactComponent as ArrowIcon } from '../assets/svg/arrow_forward.svg';
-
-// import ruby from '../assets/website-images/gems/ruby.png';
-// import jade from '../assets/website-images/gems/jade.png';
-// import quarts from '../assets/website-images/gems/quarts.png';
-// import amethyst from '../assets/website-images/gems/amethyst.png';
+import img1 from '../assets/website-images/treatments/1.png';
+import img2 from '../assets/website-images/treatments/2.png';
+import img3 from '../assets/website-images/treatments/3.png';
+import img4 from '../assets/website-images/treatments/4.png';
 
 const ServicesSection = () => {
   return (
@@ -12,43 +11,47 @@ const ServicesSection = () => {
       <div className="services-container">
         <h3>Our Services</h3>
         <div className="service-card">
-          {/* <div className="image-wrapper">
-            <img src={quarts} alt="quarts" />
-          </div> */}
-          <h4>Quartz Hydration Facial</h4>
+          <div className="image-wrapper">
+            <img src={img1} alt="facial" />
+          </div>
+          <h4>Oxygen Facial</h4>
           <p>
-            Immerse yourself in a hydrating bliss with our quartz-infused
-            facial, perfect for restoring vitality to thirsty skin.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
+            similique veniam eligendi minima natus eveniet ipsa non saepe, sed
+            nisi.
           </p>
         </div>
         <div className="service-card">
-          {/* <div className="image-wrapper">
-            <img src={amethyst} alt="amethyst" />
-          </div> */}
-          <h4>Amethyst Calming Treatment</h4>
+          <div className="image-wrapper">
+            <img src={img2} alt="facial" />
+          </div>
+          <h4>HydraFacial</h4>
           <p>
-            Soothe and calm your skin with the purifying properties of amethyst,
-            designed to reduce inflammation and promote peace.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
+            perferendis ea reiciendis rem mollitia accusantium fugiat eius
+            corrupti eligendi aspernatur.
           </p>
         </div>
         <div className="service-card">
-          {/* <div className="image-wrapper">
-            <img src={ruby} alt="ruby" />
-          </div> */}
-          <h4>Ruby Revitalizing Boost</h4>
+          <div className="image-wrapper">
+            <img src={img3} alt="facial" />
+          </div>
+          <h4>Chemical Peel</h4>
           <p>
-            Experience the energizing effect of ruby crystals that aim to
-            invigorate your skin and boost your natural glow.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deserunt
+            nostrum obcaecati nihil consequuntur magnam quidem assumenda animi
+            ipsum.
           </p>
         </div>
         <div className="service-card">
-          {/* <div className="image-wrapper">
-            <img src={jade} alt="jade" />
-          </div> */}
-          <h4>Jade Contouring Magic</h4>
+          <div className="image-wrapper">
+            <img src={img4} alt="facial" />
+          </div>
+          <h4>LED Light Therapy</h4>
           <p>
-            Define and contour with the healing touch of jade, known for its
-            abilities to enhance skin elasticity and sculpt your features.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
+            blanditiis a enim recusandae, tempora aperiam itaque nisi provident
+            iste debitis! Non, quam!
           </p>
         </div>
         <Link to="/treatments" className="btn">
