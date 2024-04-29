@@ -489,7 +489,7 @@ footer {
   color: $whiteColor;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  align-items: center;
+  justify-items: center;
   justify-content: center;
   justify-items: stretch;
   font-size: 0.85rem;

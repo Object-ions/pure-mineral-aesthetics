@@ -208,6 +208,13 @@
   .footer,
   .copyrights {
     font-size: 0.7rem;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+
+    .news-letter {
+      grid-column: 1 / -1;
+      margin-top: 2rem;
+    }
   }
 }
 
