@@ -34,6 +34,7 @@ const products = [
 const BestSeller = () => {
   return (
     <div className="best-seller">
+      <h2>Best Sellers</h2>
       <div className="best-seller-container">
         {products.map((product) => (
           <div key={product.id} className="best-seller-card">
