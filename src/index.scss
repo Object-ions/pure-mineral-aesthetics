@@ -200,6 +200,51 @@ footer {
   }
 }
 
+// *** Best Seller *** //
+.best-seller {
+  .best-seller-container {
+    @include container-setup;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    text-align: center;
+    padding-bottom: 2rem;
+
+    h3 {
+      text-align: center;
+      font-size: 1rem;
+    }
+
+    hr {
+      width: 2rem;
+    }
+
+    .benefits {
+      display: flex;
+      justify-content: space-around;
+      padding: 0.25rem;
+      font-size: 0.7rem;
+    }
+
+    .best-seller-card {
+      .image-wrapper {
+        width: 100%;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .btn {
+      background: none;
+      border: 1px solid $blackColor;
+      background: $blackColor;
+      color: $whiteColor;
+    }
+  }
+}
+
 // *** Informative *** //
 .informative {
   background-position: center center;
@@ -254,14 +299,14 @@ footer {
 
 // *** Services *** //
 .services-section {
-  background: #f0f0f0;
-
+  background-position: bottom right !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
   .services-container {
     @include container-setup;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1.5rem;
-    background: #f0f0f0;
     text-align: center;
 
     > :first-child {
@@ -281,7 +326,7 @@ footer {
     }
 
     .service-card {
-      background: #f0f0f0;
+      background: rgba(255, 255, 255, 0.5);
       color: $blackColor;
       height: 25rem;
       padding: 1rem;
@@ -291,6 +336,12 @@ footer {
       justify-content: space-evenly;
       border: 1px solid $blackColor;
 
+      transition: transform 0.3s ease;
+
+      &:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+      }
       h4 {
         font-size: 1.5rem;
         color: $blackColor;
@@ -298,8 +349,8 @@ footer {
       }
 
       .image-wrapper {
-        height: 5rem;
-        width: 5rem;
+        height: auto;
+        width: 80%;
 
         img {
           height: 100%;
@@ -321,15 +372,14 @@ footer {
 
   .second-container {
     @include container-setup;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
     grid-gap: 1.5rem;
     color: $whiteColor;
     background: $accentColor;
     text-align: center;
+    padding: 2rem;
 
     .second-text {
-      grid-column: 1 / 4;
       display: flex;
       flex-direction: column;
       color: $blackColor;
@@ -339,16 +389,14 @@ footer {
       a {
         color: $whiteColor;
         background: $blackColor;
-        border: 0.1rem solid $blackColor;
       }
     }
 
     .second-image-wrapper {
-      height: 20rem;
-      grid-column: 4 / 5;
+      max-width: 25rem;
 
       img {
-        height: 100%;
+        width: 100%;
       }
     }
   }
@@ -489,7 +537,7 @@ footer {
   color: $whiteColor;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  align-items: center;
+  justify-items: center;
   justify-content: center;
   justify-items: stretch;
   font-size: 0.85rem;
