@@ -112,20 +112,17 @@
 // *** Second Informative *** //
 
 @media (max-width: 550px) {
-  .second-informative .second-container {
-    .second-text {
-      grid-column: 1 / -1;
-    }
+  .second-informative {
+    .second-container {
+      display: block;
 
-    .second-image-wrapper {
-      grid-column: 1 / -1;
-      height: auto;
-      padding: 2rem;
+      .second-image-wrapper {
+        margin: 0 auto;
+        padding: 1rem;
 
-      img {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
+        img {
+          width: 100%;
+        }
       }
     }
   }
