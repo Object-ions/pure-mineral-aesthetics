@@ -39,7 +39,7 @@ const Footer = () => {
           <Link to={'/'}>Shipping Policy</Link>
           <Link to={'/'}>Refund Policy</Link>
           <Link to={'/'}>Cookie Policy</Link>
-          <Link to={'/'}>Accessibility Statement</Link>
+          <Link to={'/'}>Accessibility</Link>
         </div>
         <div className="navigation">
           <h3>Menu</h3>
@@ -55,7 +55,6 @@ const Footer = () => {
           <label>Email Address:</label>
           <input type="email" />
           <button className="btn">Subscribe</button>
-          <p>* By clicking subscribe I agree to news letter policy</p>
         </div>
       </div>
       <Copyrights />
