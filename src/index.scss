@@ -299,14 +299,14 @@ footer {
 
 // *** Services *** //
 .services-section {
-  background: #f0f0f0;
-
+  background-position: bottom right !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
   .services-container {
     @include container-setup;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1.5rem;
-    background: #f0f0f0;
     text-align: center;
 
     > :first-child {
@@ -326,7 +326,7 @@ footer {
     }
 
     .service-card {
-      background: #f0f0f0;
+      background: rgba(255, 255, 255, 0.5);
       color: $blackColor;
       height: 25rem;
       padding: 1rem;
@@ -393,10 +393,10 @@ footer {
     }
 
     .second-image-wrapper {
-      width: 50%;
+      max-width: 25rem;
 
       img {
-        height: 100%;
+        width: 100%;
       }
     }
   }

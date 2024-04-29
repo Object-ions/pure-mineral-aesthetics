@@ -4,10 +4,11 @@ import img1 from '../assets/website-images/treatments/1.png';
 import img2 from '../assets/website-images/treatments/2.png';
 import img3 from '../assets/website-images/treatments/3.png';
 import img4 from '../assets/website-images/treatments/4.png';
+import greyBg from '../assets/website-images/bg-images/bg-waves.png';
 
 const ServicesSection = () => {
   return (
-    <div className="services-section">
+    <div className="services-section" style={{ background: `url(${greyBg})` }}>
       <div className="services-container">
         <h3>Our Services</h3>
         <div className="service-card">

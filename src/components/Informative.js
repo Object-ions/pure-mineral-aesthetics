@@ -1,5 +1,5 @@
 import bgImage from '../assets/website-images/bg-section.jpg';
-import blackStone from '../assets/website-images/black-stone.jpg';
+import blackStone from '../assets/website-images/black-caviar.png';
 const Informative = () => {
   return (
     <div className="informative" style={{ backgroundImage: `url(${bgImage})` }}>

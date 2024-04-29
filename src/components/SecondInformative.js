@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import plainSkincare from '../assets/website-images/plain-skincare.png';
+import plainSkincare from '../assets/website-images/second-informative.png';
 
 const SecondInformative = () => {
   return (
